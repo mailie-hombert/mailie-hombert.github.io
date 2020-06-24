@@ -1,0 +1,924 @@
+@-webkit-keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+/* fin de la déclaration des animations*/
+
+/* /////////////////////////////////Page Accueil/////////////////////////////*/
+
+
+body {
+  background-color: #181d37 ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+/*//////////////////////////////////Header//////////////////////////*/
+
+
+header{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0cce2; 
+}
+
+#logo{
+  width: 26vw ; 
+  /*border: 1px solid red;*/  
+  margin-left: 3.1vw;
+  display: flex; 
+  align-items: center;
+}
+
+
+#logo img {
+
+  width: 6.5vw ; 
+
+
+}
+
+h1{
+
+ 
+  font-family: 'Lilita One', cursive;
+  font-size: 1.3em;
+  color: #181d37;
+  text-align: left;
+  margin-left: 2% ; 
+
+}
+
+/*hearder ul c'est les petites boites qui contiennent tes boutons projets et about*/
+header ul{
+  width: 20vw;
+  display: flex;
+}
+
+
+header li{
+  width: 18vw;
+  margin-right: 3.1vw;
+  height: 40px ;
+  margin-top: 40px ;
+  
+}
+
+li{
+
+  font-family: 'Lilita One', cursive;
+  color: #23204a;
+  font-size:1.5em ;
+
+}
+
+li: hover{
+
+ color: #181d37 ;
+}
+
+a:link {
+
+  text-decoration: none;
+
+}
+
+a:visited {
+
+  color: #23204a ; 
+}
+
+
+
+/* //////////////////////////////fin du header///////////////////////////*/
+
+
+
+/* /////////////////////////Slider//////////////////////*/
+
+
+
+/* boite qui contient les btn + les articles*/
+
+/*les webkit c'est pour que tes effets puisse être combatible sur différents moteurs de recherches*/
+.slider {
+
+  width: 100vw;
+  margin: 20px auto;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*apparence des boutons (les btn sont des balises input) en bas du slider*/
+
+.slider_btn {
+
+  width: 15px;
+  height: 15px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: #181d37 ;
+  outline: none;
+  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+/*modifie l'apparence initiale de la balise input sur tous les naviateurs*/
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+/*modifie l'apparence initiale de la balise input*/          
+}
+
+/*lorsque l'input est selectionné*/
+.slider_btn:focus { 
+  background-color: white;
+}
+
+/*lorsque l'input est activé*/
+.slider_btn:checked {
+
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider_btn:checked:nth-of-type(1) ~ .slider_boite {
+  left: 0%;
+}
+.slider_btn:checked:nth-of-type(2) ~ .slider_boite {
+  left: -100%;
+}
+.slider_btn:checked:nth-of-type(3) ~ .slider_boite {
+  left: -200%;
+}
+.slider_btn:checked:nth-of-type(4) ~ .slider_boite {
+  left: -300%;
+}
+
+
+/*boite qui contient les 4 articles*/
+
+.slider_boite {
+
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: flex;
+  flex-flow: row nowrap;
+    /*ci dessous je parle à tous les navigateurs*/
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+          
+}
+
+
+/*puis je parle aux articles*/
+
+.article_slider {
+  width: 100vw;
+  height: 100%;
+  text-align: center;
+
+}
+
+/*Titre de tes projets*/
+.titre_slider {
+  width: 100%; 
+  font-weight: 500;
+  font-family: 'Lilita One', cursive;
+  font-size: 2em;
+  color: #f0cce2;
+}
+
+.sous_titre_slider{
+ font-family: 'Lilita One', cursive;
+  color: #ffffff;
+  margin-bottom: 20px; 
+
+
+
+}
+
+
+.slider_image {
+  width: 99.6%;
+  height: 95%;
+  overflow: hidden;
+
+  
+}
+
+
+.slider_image img{
+  width: 80%;
+}
+
+/* ///////////////////////////fin du slider///////////////////////////*/
+
+
+
+
+
+
+/* ////////début du footer/////////////*/
+
+footer{
+  width: 6vw;
+  position: fixed;
+ right: 1.5vw ;
+ bottom: 1vw ;  
+}
+
+footer ul{
+  width: 100% ;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer ul li{
+  width: 40%;
+  
+  
+
+}
+
+footer ul li img {
+
+  width: 100% ; 
+}
+/* ///////////fin du footer/////////////////*/
+
+
+/* ///////////////////////Fin traitement Paga Accueil///////////////////////*/
+
+
+
+
+
+
+
+/* //////////////////////////PAGE MENU DES PROJETS/////////////////////////*/
+
+#mozprojet{
+
+  width: 60vw ;
+  margin :20px auto ;
+  margin-top: 120px ; 
+ 
+}
+
+#mozprojet article {
+
+  display: inline-block;
+  vertical-align: top;
+  width: 26vw ; 
+  height: 26vw ; 
+  overflow: hidden;
+  margin-right: 3vw ; 
+  margin-bottom: 3vw ;
+  position: relative;
+
+
+}
+
+#mozprojet article div {
+
+ 
+
+position: absolute;
+width: 26vw ; 
+height: 26vw ;
+margin-top: 0px;
+background-color: rgba(255,255,255,0.4 ) ;
+opacity: 0 ;
+transition: 1s ease all ; 
+
+}
+
+#mozprojet article:hover div {
+
+  display: block;
+  opacity: 1 ; 
+
+}
+
+
+h2{
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  font-family: 'Lilita One', cursive;
+  font-size: 2em;
+  color: #f0cce2;
+  text-align: center;
+
+
+}
+
+article div h2 {
+
+  margin-top: 40% ; 
+}
+
+h3{
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+   font-family: 'Lilita One', cursive;
+  color: white ;
+  text-align: center;
+ 
+}
+
+.h2_Menu {
+
+  color: #f0cce2 ; 
+  text-align: center;
+}
+
+h4{
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.9);
+  font-family: 'Lilita One', cursive;
+  color: white ;
+  text-align: center;
+
+}
+
+#mozprojet article img {
+
+  width: 100% ; 
+
+}
+
+
+
+/* /////////////////////////////fin PAGE MENU PROJETS///////////////////////*/
+
+
+
+
+
+
+/* //////////////////////////////Page About/////////////////////////////////*/
+
+#About{
+
+  border: 1px solid red ; 
+   width: 80vw ; 
+  margin : auto ; 
+  margin-top: 3%; 
+  text-align: center;
+ 
+}
+
+
+
+#img_About{
+
+ border: 1px solid pink;
+  display: inline-block; 
+
+}
+
+#img_About img {
+
+width: 400px;
+}
+
+#paragraphe   {
+
+   border: 1px solid green ; 
+  display: inline-block;
+  width: 50% ; 
+  margin-left: 5%;
+
+}
+
+
+#titreAbout{
+
+  font-size: 5em;
+}
+
+#texteAbout{
+
+ font-family: 'Quicksand', sans-serif;
+ text-align: center;
+ margin-bottom: 5%;
+}
+
+#ul_About{
+
+border: 1px solid purple ;
+}
+
+.li_About{
+
+  color: #181d37; 
+  width: 90px; 
+  display: inline-block;
+  background-color: #f0cce2; 
+  justify-content: space-between;
+  margin: 0px 45px;
+  border-radius: 5px; 
+  text-decoration: underline;
+}
+
+.li_About:hover{
+
+  color: white;
+}
+
+.mail{
+
+  color: #181d37; 
+}
+
+.mail:hover{
+
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////FIN ABOUT ////////////////////////////////////*/
+
+
+
+
+
+/*////////////////////////PAGE D'UN PROJET//////////////////////////////////*/
+
+#BlocTexteProjet {
+
+  width: 61.3vw ; 
+  margin : auto ;
+  margin-top: 8% ; 
+  text-align: center;
+ 
+  
+
+}
+
+.titre_projet {
+
+  margin : auto ;
+  color: #f0cce2; 
+  width: 61.3vw ; 
+  text-align: center;
+  font-size: 6em ;   
+}
+
+.sous_titre_projet {
+
+  color: white ; 
+  font-size: 2em ; 
+}
+
+
+ p {
+
+  width: 100% ; 
+ /* border : 1px solid red;*/
+  text-align: left; 
+  margin-top: 5% ;
+  margin-left: 2% ; 
+  color : white ;
+  font-family: 'Quicksand', sans-serif;
+  
+
+}
+
+.a_projet:link {
+
+
+  text-decoration: underline
+
+}
+
+.a_projet:visited {
+
+  color: white; 
+}
+
+.a_projet:hover {
+
+  color: #f0cce2;
+  }
+
+
+/* ///////////////////////Page projet etrange bonbon///////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////fin etrange bonbon///////////////////*/
+
+
+
+
+
+
+
+/*/////////////////////Conteneur projet des danseuses///////////////////*/
+
+
+
+
+
+
+#conteneur_Photos{
+
+  width: 61.3vw ; 
+  margin : 5% auto ;
+
+}
+
+#Un{
+
+display: inline-block;
+width: 47% ; 
+margin-left: 2% ;
+vertical-align: top ; 
+
+}
+
+#deux{
+
+  display: inline-block;
+  vertical-align: top ; 
+  width: 46.5% ; 
+  margin-left: 2% ;
+
+}
+
+#trois{
+
+  width: 96% ; 
+  margin-left: 2% ;
+  margin-top: 2% ;
+
+}
+
+
+
+#quatre{
+
+display: inline-block;
+width: 47% ; 
+margin-left: 2% ;
+vertical-align: top ; 
+
+}
+
+
+
+#Un img{
+
+  width: 100% ;
+  margin : 3% auto; 
+ /* margin-top: 0% ; */
+
+}
+
+#deux img{
+
+  width: 100% ;
+  margin-top: 3% ;
+  margin-bottom: 3% ;
+ 
+}
+
+#deux_vertical {
+
+  height: 84% ; 
+}
+
+#deux_horizontal {
+
+  height: 31.5% ; 
+  margin-top: 3% ;
+}
+  
+
+#trois img {
+
+  width: 100% ;
+  display: inline-block;
+  vertical-align: top ; 
+  margin-bottom: 3% ;
+}
+
+
+
+  
+#quatre img{
+
+  width: 100% ;
+  height: 39.1% ; 
+  margin : 3% auto; 
+ /* margin-top: 0% ; */
+
+}
+
+
+
+/*/////////////////////fin traitement img des danseuses/////////////////////*/
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////Conteneur Paysage Loufoque///////////////////*/ 
+
+
+
+
+.Un_riso{
+
+display: inline-block;
+width: 47% ; 
+margin-left: 2% ;
+vertical-align: top ; 
+
+}
+
+.deux_riso{
+
+  display: inline-block;
+  vertical-align: top ; 
+  width: 46.5% ; 
+  margin-left: 2% ;
+ 
+
+}
+
+#riso03{
+
+  height: 52.8%; 
+}
+
+
+
+.trois_riso{
+
+  width: 96% ; 
+  margin-left: 2% ;
+  margin-top: 2% ;
+
+}
+
+
+.trois_p{
+
+  
+  border: 1px solid yellow ; 
+  width: 98% ;
+  }
+
+.Riso_texte{
+
+  text-align: left;
+  color: white ; 
+}
+
+
+.quatre_riso{
+
+display: inline-block;
+width: 47% ; 
+margin-left: 2% ;
+vertical-align: top ; 
+
+}
+
+
+
+.Un_riso img{
+
+  width: 100% ;
+  margin : 3% auto; 
+ /* margin-top: 0% ; */
+
+}
+
+.deux_riso img{
+
+  width: 100% ;
+  margin-top: 3% ;
+  margin-bottom: 3% ;
+ 
+}
+
+
+  
+
+.trois_riso img {
+
+  width: 100% ;
+  display: inline-block;
+  vertical-align: top ; 
+  margin-bottom: 3% ;
+}
+
+
+
+  
+.quatre_riso img{
+
+  width: 100% ;
+  height: 45% ; 
+  margin : 3% auto; 
+ /* margin-top: 0% ; */
+
+}
+
+#lienAmis{
+
+  color: white; 
+  text-decoration: underline;
+}
+
+#lienAmis:hover{
+
+  color: #f0cce2;
+}
+
+
+
+
+/* ///////////////////////////Fin img pAYSAGE lOUFOQUE/////////////////*/
+
+
+/*///////////////////////////Bouton de navigation///////////////////////////*/
+#BoutonNext{
+
+
+  width: 60.6vw ; 
+  display: flex;
+  margin : auto ;
+  justify-content: space-between;
+  border : 1px solid pink;
+}
+
+#BoutonNext li {
+
+  width: 3.1vw ; 
+
+} 
+
+
+#BoutonNext li img {
+
+  width: 100% ; 
+}
+
+.BtnNext{
+
+  color: #f0cce2 ; 
+  text-shadow: 1px 1px 0px white; 
+}
+
+
+
+/*////////////////////Fin traitement Bouton de navigation///////////////////*/
+
+
+/*FIN PAGE D'UN PROJET/////////////////////////*/
+
+
+
+
+/* ///////////////////////////Page Amis//////////////////////////////////*/
+
+
+#Amis{
+
+  width: 90% ; 
+  margin: auto;
+  margin-top: 6%;
+}
+
+
+.article_Amis{
+
+ 
+  display: inline-block;
+  justify-content: space-between;
+  margin: 0px 45px; 
+  margin-left: 20% ; 
+
+}
+
+.h2_Amis{
+
+  font-family: 'Lilita One', cursive;
+  color: #f0cce2 ; 
+  margin-bottom: 7% ; 
+  text-align: left; 
+}
+
+
+.li_Amis{
+
+  font-family: 'Quicksand', sans-serif;
+  color: white; 
+   
+}
+
+.site:link{
+
+  color: white;
+  text-decoration: underline;
+}
+
+.site:hover{
+  
+  color: #f0cce2;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////Fin Amis//////////////////////////////*/
+
+/*La case vide sert pour la MenuProjets pour garder tjrs un nb pair de cases*/
+#CaseVide {
+
+  background-color: #f0cce2 ;
+
+  width: 400px ; 
+  height: 400px ; 
+}
+
+
