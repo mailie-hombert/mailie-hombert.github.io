@@ -1,119 +1,110 @@
 @-webkit-keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
+	50% {
+		outline-color: #333;
+		box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+	}
+	100% {
+		outline-color: #333;
+		box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+	}
 }
 
 @keyframes check {
-  50% {
-    outline-color: #333;
-    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
-  }
-  100% {
-    outline-color: #333;
-    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  }
+	50% {
+		outline-color: #333;
+		box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+	}
+	100% {
+		outline-color: #333;
+		box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+	}
 }
 /*////////////////// fin de la déclaration des animations*/
 
-
-
 body {
-  background-color: #FAF2EF ;
+	overflow-x: hidden;
+	background-color: #d8ceca;
+	/* font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;*/
 }
 
 /*balise pour les exposants*/
 sup {
-  vertical-align: super;
-  font-size: 70%;
+	vertical-align: super;
+	font-size: 70%;
 }
-
 
 /*//////////////////////////////////Header//////////////////////////*/
 
-
-header{
-  width: 100vw;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #5A0C3F; 
+header {
+	width: 100vw;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #5a0c3f;
 }
 
-#logo{
-  width: 26vw ; 
-  /*border: 1px solid red; */
-  margin-left: 3.1vw;
-  display: flex; 
-  align-items: center;
+#logo {
+	width: 26vw;
+	/*border: 1px solid red; */
+	margin-left: 3.1vw;
+	display: flex;
+	align-items: center;
 }
 
 #logo img {
-  width: 6.5vw ; 
+	width: 6.5vw;
 }
 
-
-h1{
-  font-family: 'Lilita One', cursive;
-  font-size: 1.4em;
-  color: #FAF2EF;
-  text-align: left;
-  margin-left: 3% ; 
-  /*border: 1px solid red ;*/
+h1 {
+	font-family: "Lilita One", cursive;
+	font-size: 1.4em;
+	color: #faf2ef;
+	text-align: left;
+	margin-left: 3%;
+	/*border: 1px solid red ;*/
 }
-
-
 
 /*hearder ul c'est les petites boites qui contiennent tes boutons projets et about*/
-header ul{
-  width: 20vw;
-  display: flex;
+header ul {
+	width: 20vw;
+	display: flex;
 }
 
-
-header li{
-  width: 18vw;
-  margin-right: 3.1vw;
-  height: 40px ;
-  margin-top: 40px ;
-  
+header li {
+	width: 18vw;
+	margin-right: 3.1vw;
+	height: 40px;
+	margin-top: 40px;
 }
 
-.li_hearder{
-  font-family: 'Lilita One', cursive;
-  color: #FAF2EF ;
-  font-size:1.5em ;
+.li_hearder {
+	font-family: "Lilita One", cursive;
+	color: #faf2ef;
+	font-size: 1.5em;
 }
 
 /*a permet de parler à 'aspect des boutons Projet et About*/
 
-.a_hearder{
-  outline: none;
-  text-decoration: none;
+.a_hearder {
+	outline: none;
+	text-decoration: none;
 }
 
 .a_hearder:link {
-  color: #FAF2EF;
+	color: #faf2ef;
 }
 
 .a_hearder:visited {
-  color: #FAF2EF;
+	color: #faf2ef;
 }
 
-.a_hearder:hover{
-  text-decoration: underline; 
+.a_hearder:hover {
+	text-decoration: underline;
 }
 
 /* //////////////////////////////fin du header///////////////////////////*/
-
-
-
-
 
 /*//////////////////////////PAGE ACCEUIL///////////////////*
 
@@ -125,792 +116,673 @@ header li{
 
 /*les webkit c'est pour que tes effets puisse être combatible sur différents moteurs de recherches*/
 .slider {
-
-border: 2px solid red; 
-  width: 100vw;
-  margin: 20px auto;
-  height: 80vh;
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row nowrap;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+	/*border: 2px solid red;*/
+	width: 100vw;
+	margin: 20px auto;
+	height: 80vh;
+	position: relative;
+	overflow: hidden;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 }
 
 /*apparence des boutons (les btn sont des balises input) en bas du slider*/
 
 .slider_btn {
-  width: 15px;
-  height: 15px;
-  margin: 2rem 12px;
-  border-radius: 50%;
-  z-index: 10;
-  background-color: #5A0C3F ;
-  outline: none;
-  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-  cursor: pointer;
-/*modifie l'apparence initiale de la balise input sur tous les naviateurs*/
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-/*modifie l'apparence initiale de la balise input*/          
+	width: 15px;
+	height: 15px;
+	margin: 2rem 12px;
+	border-radius: 50%;
+	z-index: 10;
+	background-color: #5a0c3f;
+	outline: none;
+	box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+	cursor: pointer;
+	/*modifie l'apparence initiale de la balise input sur tous les naviateurs*/
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	/*modifie l'apparence initiale de la balise input*/
 }
 
 /*lorsque l'input est selectionné*/
-.slider_btn:focus { 
-  background-color: white;
+.slider_btn:focus {
+	background-color: white;
 }
 
 /*lorsque l'input est activé*/
 .slider_btn:checked {
-  -webkit-animation: check 0.4s linear forwards;
-          animation: check 0.4s linear forwards;
+	-webkit-animation: check 0.4s linear forwards;
+	animation: check 0.4s linear forwards;
 }
 .slider_btn:checked:nth-of-type(1) ~ .slider_boite {
-  left: 0%;
+	left: 0%;
 }
 .slider_btn:checked:nth-of-type(2) ~ .slider_boite {
-  left: -100%;
+	left: -100%;
 }
 .slider_btn:checked:nth-of-type(3) ~ .slider_boite {
-  left: -200%;
+	left: -200%;
 }
 .slider_btn:checked:nth-of-type(4) ~ .slider_boite {
-  left: -300%;
+	left: -300%;
 }
-
 
 /*boite qui contient les 4 articles*/
 
 .slider_boite {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 500%;
-  height: 100%;
-  -webkit-transition: left 0.4s;
-  transition: left 0.4s;
-  display: flex;
-  flex-flow: row nowrap;
-    /*ci dessous je parle à tous les navigateurs*/
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-flex-flow: row nowrap;
-    -ms-flex-flow: row nowrap;
-          
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500%;
+	height: 100%;
+	-webkit-transition: left 0.4s;
+	transition: left 0.4s;
+	display: flex;
+	flex-flow: row nowrap;
+	/*ci dessous je parle à tous les navigateurs*/
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
 }
-
 
 /*puis je parle aux articles*/
 
 .article_slider {
-  width: 100vw;
-  height: 100%;
-  text-align: center;
+	width: 100vw;
+	height: 100%;
+	text-align: center;
 }
 
 /*Titre de tes projets*/
 .titre_slider {
-  width: 100%; 
-  font-weight: 500;
-  font-family: 'Lilita One', cursive;
-  font-size: 2em;
-  color: #5A0C3F;
+	width: 100%;
+	font-weight: 500;
+	font-family: "Lilita One", cursive;
+	font-size: 2em;
+	color: #5a0c3f;
 }
 
-.sous_titre_slider{
-  font-family: 'Quicksand', sans-serif ; 
-  color: #FAF2EF;
-  box-shadow: 0px 2px 25px ; 
-  margin-bottom: 15px; 
+.sous_titre_slider {
+	font-family: "Quicksand", sans-serif;
+	margin-top: 5px;
+	margin-bottom: 15px;
 }
-
 
 .slider_image {
-  width: 99.6%;
-  height: 95%;
-  overflow: hidden;  
+	width: 99.6%;
+	height: 95%;
+	overflow: hidden;
 }
 
-
-.slider_image img{
-  width: 80%;
+.slider_image img {
+	width: 80%;
 }
 
 /* ////////fin du slider////////////*/
 
-
 /* ///////////////////////Fin Accueil///////////////////////*/
 
-
-
-
-
-
-
-
-
 /*//////////////////  Menu Projets////////////*/
-.conteneur{
-  /*border: 1px solid red ; */
-  width: 93.9vw ;
-  margin:90px  auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*fr = 1 fraction = nb de colonne*/
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ; /* Nombre de rangée*/
-  grid-gap: 47px; 
-  grid-auto-flow: row; 
+.conteneur {
+	/*border: 1px solid red ; */
+	width: 93.9vw;
+	margin: 90px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*fr = 1 fraction = nb de colonne*/
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /* Nombre de rangée*/
+	grid-gap: 47px;
+	grid-auto-flow: row;
 }
 
 /*taille de du cadre qui contient tes photos = 
 ducoup tes images doivent faire 250x250px*/
-.articleP{
-  width: 250px; 
-  height: 250px; 
-  /*border: 1px solid black; */
-  /*background-color: #5A0C3F  ;  */
+.articleP {
+	width: 250px;
+	height: 250px;
+	/*border: 1px solid black; */
+	/*background-color: #5A0C3F  ;  */
 }
 
 /*taille de l'image*/
 .articleP img {
- width: 100%; 
+	width: 100%;
 }
-
 
 /*ce truc sert à faire le carré de transition.*/
 .articleP div {
-position: absolute;
-height: 250px; 
-width: 250px;
-background-color: rgba(255,255,255,0.7 ) ;
-opacity: 0 ;
-transition: 1s ease all ; 
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	background-color: rgba(255, 255, 255, 0.7);
+	opacity: 0;
+	transition: 1s ease all;
+}
+
+.h2_Menu {
+	margin-top: 38%;
 }
 
 /*=quand tu passe dessus le cube d'opacity aparait*/
- .articleP:hover div {
-  display: block;
-  opacity: 1 ; 
+.articleP:hover div {
+	display: block;
+	opacity: 1;
 }
 
 /*titre du projet*/
-h2{
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
-  font-family: 'Lilita One', cursive;
-  font-size: 2em;
-  color: #5A0C3F;
-  text-align: center;
-  margin-top: 40% ; /*ce margin top permet de centrer le h2 et h4 
+h2 {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+	font-family: "Lilita One", cursive;
+	font-size: 2em;
+	color: #5a0c3f;
+	text-align: center;
+	/*margin-top: 10vh; /*ce margin top permet de centrer le h2 et h4 
   se calera automatiquement avec*/
 }
 
-/*sous titre = catégorie*/ 
-h4{
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 1.5);
-  font-family: 'Lilita One', cursive;
-  color: #FAF2EF ;
-  text-align: center;
-  margin-top: 5px;
-  }
+/*sous titre = catégorie*/
+h4 {
+	text-shadow: 0 1px 5px rgba(0, 0, 0, 1.5);
+	font-family: "Lilita One", cursive;
+	color: #faf2ef;
+	text-align: center;
+	margin-top: 5px;
+}
 
-.a_P{
-  outline: none;
-  text-decoration: none;
+.a_P {
+	outline: none;
+	text-decoration: none;
 }
 
 .a_P:link {
-  color: #FAF2EF;
+	color: #faf2ef;
 }
 
-.a_P:hover{
-  text-decoration: none; 
+.a_P:hover {
+	text-decoration: none;
 }
 
 /*///////////////Fin Menu Projets////////////*/
 
-
-
-
-
 /*/////////////////////////// About ////////////////////*/
-#ConteneurAbout{
-  width: 93.9vw ;
-  height: 45vw;
-  margin: 30px auto ;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr) ;
-  grid-template-rows: repeat(3, 1fr); 
-  grid-template-areas: 
-  "image titre"
-  "image paragraphe"
-  "image  boutons"
-  }
-
+#ConteneurAbout {
+	width: 93.9vw;
+	height: 45vw;
+	margin: 30px auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas:
+		"image titre"
+		"image paragraphe"
+		"image  boutons";
+}
 
 #ConteneurAbout img {
-    width: 65%; 
-    /*les 3 lignes ci-dessous servent à centrer l'img*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+	width: 65%;
+	/*les 3 lignes ci-dessous servent à centrer l'img*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*A01=image de l'avatar*/
-#A01{
-  width:45vw ; 
-  grid-area: image;
- } 
+#A01 {
+	width: 45vw;
+	grid-area: image;
+}
 
 /*A02=article qui contient "Qui suis-je"*/
- #A02{
-  grid-area: titre;
- }
-
-/*TitreAbout= Qui suis-je*/ 
- #titreAbout{
-  font-family: 'Lilita One', cursive;
-  font-size: 6em;
-  color: #5A0C3F;
-  text-align: center;
-  margin : 80px auto;
+#A02 {
+	grid-area: titre;
 }
 
- #A03{
-  grid-area: paragraphe;
-  margin-top: -45px;
- }
+/*TitreAbout= Qui suis-je*/
+#titreAbout {
+	font-family: "Lilita One", cursive;
+	font-size: 6em;
+	color: #5a0c3f;
+	text-align: center;
+	margin: 80px auto;
+}
 
-  p{
-  font-family: 'Quicksand', sans-serif;
-  color: #5A0C3F;
-  font-size: 1.5em;
-  text-align: center;
-  }
+#A03 {
+	grid-area: paragraphe;
+	margin-top: -45px;
+}
+
+#textAbout {
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+}
 
 /*Contient les boutons mail, CV + Amis*/
- #A04{
-  grid-area: boutons;
- }
+#A04 {
+	grid-area: boutons;
+}
 
 /*partie des btn dans ul = CV,mail & amis*/
-.li_About{
-  color: #FAF2EF;
-  font-family: 'Lilita One', cursive;
-  font-size: 2em;
-  display: inline-block;
-  background-color: #5A0C3F; 
-  justify-content: space-between;
-  border-radius: 8px; 
-  margin-left: 105px; 
-  padding: 20px 20px ; 
+.li_About {
+	color: #faf2ef;
+	font-family: "Lilita One", cursive;
+	font-size: 2em;
+	display: inline-block;
+	background-color: #5a0c3f;
+	justify-content: space-between;
+	border-radius: 8px;
+	margin-left: 105px;
+	padding: 20px 20px;
 }
 
-.li_About:hover{
-  text-decoration: underline;
+.li_About:hover {
+	text-decoration: underline;
 }
 
-.mail{
-  color: #FAF2EF; 
-  text-decoration: none; 
+.mail {
+	color: #faf2ef;
+	text-decoration: none;
 }
 
-.mail:hover{
- text-decoration: underline;
+.mail:hover {
+	text-decoration: underline;
 }
-
 
 /*////////////////// Fin About ////////////*/
 
+/*////////////////////////PAGE D'UN PROJET//////////////////////////////////*/
 
-
-
-
-
-
-
-
-/*////////////////////////Cadre de présentation du PROJET//////////////////////////////////*/
-/*Pour ârler du titre, sous-titre, texte explicatif ...*/
 #BlocTexteProjet {
-  width: 61.3vw ; 
-  margin : auto ;
-  margin-top: 8% ; 
-  text-align: center;
+	width: 61.3vw;
+	margin: auto;
+	margin-top: 8%;
+	text-align: center;
 }
 
-
 .titre_projet {
-  margin : auto ;
-  color: #5A0C3F; 
-  width: 61.3vw ; 
-  text-align: center;
-  font-size: 6em ;   
+	margin: auto;
+	color: #5a0c3f;
+	width: 61.3vw;
+	text-align: center;
+	font-size: 6em;
 }
 
 .sous_titre_projet {
-  color: white ; 
-  text-shadow: 0px 1px 1px #5A0C3F;
-  font-family: 'Quicksand',sans-serif;
-  font-size: 2em ;
-  margin-top: 3%; 
+	color: white;
+	text-shadow: 0px 1px 1px #5a0c3f;
+	font-family: "Quicksand", sans-serif;
+	font-size: 2em;
+	margin-top: 3%;
 }
 
-
- .p_Projet {
-  width: 100% ; 
- /* border : 1px solid red;*/
-  text-align: left; 
-  margin-top: 8% ;
-  margin-left: 2% ; 
-  color : #5A0C3F;
-  text-shadow: 0px 1px 1px ;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.3em;
+p {
+	width: 100%;
+	/* border : 1px solid red;*/
+	text-align: left;
+	margin-top: 8%;
+	margin-left: 2%;
+	color: #5a0c3f;
+	text-shadow: 0px 1px 1px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 1.3em;
 }
-
 
 .a_projet {
-  color: #5A0C3F;
+	color: #5a0c3f;
 }
 
 .a_projet:link {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .a_projet:hover {
- font-family: 'Lilita One', cursive;
-  }
-
-#lienAmis{
-  color: #5A0C3F; 
-  text-decoration: underline;
+	text-decoration: none;
 }
 
-#lienAmis:hover{
-font-family: 'Lilita One', cursive;
-font-size: 1.2em;  
+/* ///////////////////////Page projet etrange bonbon///////////////////////*/
+
+#deux_EB {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+	margin-left: 1%;
 }
 
-
-
-
-/*///////////////////////////////Projet01_EtrangeBonbon///////////////////////////////*/
-#ConteneurEB{
- /* border: 2px solid red; */
-  width: 80vw ;
-  margin: 20px auto ;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.2fr;
-  grid-gap: 20px;
-  grid-template-areas: 
-  "TProjet TProjet"
-  "STProjet STProjet"
-  "TexteProjet TexteProjet"
-  "PTexteP PTexteP"
-  "PhotoEB01 PhotoEB01"
-  "PhotoEB02 PhotoEB02"
-  "PhotoEB03 PhotoEB03"
-  "PhotoEB04 PhotoEB05"
-  "PhotoEB04 PhotoEB06" 
+#trois_EB {
+	width: 100%;
+	margin-left: 2%;
+	margin-top: 2%;
 }
 
-
-article img {
-  width: 100%; 
-}
-#TProjet{
-  grid-area: TProjet;
-  /*background-color: blue;*/
-}
-#STProjet{
-  grid-area: STProjet;
-}
-#TexteProjet{
-  grid-area: TexteProjet;
-}
-#PTexteP{
-  grid-area: PTexteP;
-}
-#PhotoEB01{
-  grid-area: PhotoEB01; 
-}
-#PhotoEB02{
-  grid-area: PhotoEB02; 
-}
-#PhotoEB03{
-  grid-area: PhotoEB03; 
-}
-#PhotoEB04{
-  grid-area: PhotoEB04; 
-}
-#PhotoEB05{
-  grid-area: PhotoEB05; 
+#quatre_EB {
+	display: inline-block;
+	width: 45%;
+	margin-left: 3%;
+	vertical-align: top;
+	margin-bottom: 3%;
 }
 
-#PhotoEB06{
-  grid-area: PhotoEB06; 
+#deux_EB img {
+	width: 100%;
+	height: 81.8%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
-/*Partie qui sera utilisée pour chaque début de projet*/
-
-/*Titre du Porjet*/
-.titreProjet{
-  font-family: 'Lilita One', cursive;
-  font-size: 6em;
-  color: #5A0C3F;
-  text-align: center;
+#trois_EB img {
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 3%;
 }
 
-/*Sous-titre donne catégorie et date de réalisation*/
-.ST_Projet{
-   font-family: 'Quicksand', sans-serif;
-  font-size: 2em;
-  color: #FAF2EF;
-  text-shadow: 1px 1px 2px #5A0C3F;
-  text-align: center;
+#quatre_EB img {
+	width: 100%;
+	height: 39.1%;
+	margin: 3% auto;
+	/* margin-top: 0% ; */
 }
 
-/*Paragraphe explicatif du projet*/
-.TexteProjet{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5em;
-  color: #5A0C3F;
-  text-align: left;
-}
-
-
-
-/*petit texte d'intro il ne sera pas présent à chaque fois*/
-.PETexte{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.5em;
-  color: #5A0C3F;
-  text-align: left;
-}
-/* Fin Partie qui sera utilisée pour chaque début de projet*/
-
-
-/* ///////////////////////////fin Projet01//////////////////*/
-
-
-
-
-
-
+/* ///////////////////////////fin etrange bonbon///////////////////*/
 
 /*/////////////////////Conteneur projet des danseuses///////////////////*/
 
-#conteneur_Photos{
-  width: 61.3vw ; 
-  margin : 5% auto ;
+#conteneur_Photos {
+	width: 61.3vw;
+	margin: 5% auto;
 }
 
-#Un{
-display: inline-block;
-width: 47% ; 
-margin-left: 2% ;
-vertical-align: top ; 
+#Un {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	vertical-align: top;
 }
 
-#deux{
-  display: inline-block;
-  vertical-align: top ; 
-  width: 46.5% ; 
-  margin-left: 2% ;
+#deux {
+	display: inline-block;
+	vertical-align: top;
+	width: 46.5%;
+	margin-left: 2%;
 }
 
-#trois{
-  width: 96% ; 
-  margin-left: 2% ;
-  margin-top: 2% ;
+#trois {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 2%;
 }
 
-#quatre{
-display: inline-block;
-width: 47% ; 
-margin-left: 2% ;
-vertical-align: top ; 
+#quatre {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	vertical-align: top;
 }
 
-#Un img{
-  width: 100% ;
-  margin : 3% auto; 
- /* margin-top: 0% ; */
+#Un img {
+	width: 100%;
+	margin: 3% auto;
+	/* margin-top: 0% ; */
 }
 
-#deux img{
-  width: 100% ;
-  margin-top: 3% ;
-  margin-bottom: 3% ;
+#deux img {
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 #deux_vertical {
-  height: 84% ; 
+	height: 84%;
 }
 
 #deux_horizontal {
-  height: 31.5% ; 
-  margin-top: 3% ;
+	height: 31.5%;
+	margin-top: 3%;
 }
-  
 
 #trois img {
-  width: 100% ;
-  display: inline-block;
-  vertical-align: top ; 
-  margin-bottom: 3% ;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 3%;
 }
 
-
-#quatre img{
-  width: 100% ;
-  height: 39.1% ; 
-  margin : 3% auto; 
- /* margin-top: 0% ; */
+#quatre img {
+	width: 100%;
+	height: 39.1%;
+	margin: 3% auto;
+	/* margin-top: 0% ; */
 }
-
-
 
 /*/////////////////////fin traitement img des danseuses/////////////////////*/
 
+/* ///////////////////////Conteneur Paysage Loufoque///////////////////*/
 
-
-
-
-
-
-
-
-
-/* ///////////////////////Conteneur Paysage Loufoque///////////////////*/ 
-
-
-
-/*paramètres des tailles d'images*/
-.Un_riso{
-display: inline-block;
-width: 47% ; 
-margin-left: 2% ;
-vertical-align: top ; 
+.Un_riso {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	vertical-align: top;
 }
 
-.deux_riso{
-  display: inline-block;
-  vertical-align: top ; 
-  width: 46.5% ; 
-  margin-left: 2% ;
+.deux_riso {
+	display: inline-block;
+	vertical-align: top;
+	width: 46.5%;
+	margin-left: 2%;
 }
 
-#riso03{
-  height: 52.8%; 
+#riso03 {
+	height: 52.8%;
 }
 
-.trois_riso{
-  width: 96% ; 
-  margin-left: 2% ;
-  margin-top: 1% ;
+.trois_riso {
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 1%;
 }
 
 /*trois_p=texte commentaire*/
-.trois_p{
-  width: 98% ;
-  }
-
-/*texte entre les images qui explique des choses en plus*/
-.Riso_texte{
-  text-align: left;
-  margin-left: 17px;
-  color: #5A0C3F ;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.3em;
+.trois_p {
+	width: 98%;
 }
 
-.quatre_riso{
-display: inline-block;
-width: 47% ; 
-margin-left: 2% ;
-vertical-align: top ; 
+.Riso_texte {
+	text-align: left;
+	color: white;
 }
 
-.Un_riso img{
-  width: 100% ;
-  margin : 3% auto; 
- /* margin-top: 0% ; */
+.quatre_riso {
+	display: inline-block;
+	width: 47%;
+	margin-left: 2%;
+	vertical-align: top;
 }
 
-.deux_riso img{
-  width: 100% ;
-  margin-top: 3% ;
-  margin-bottom: 2% ;
+.Un_riso img {
+	width: 100%;
+	margin: 3% auto;
+	/* margin-top: 0% ; */
 }
 
+.deux_riso img {
+	width: 100%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
 
 .trois_riso img {
-  width: 100% ;
-  display: inline-block;
-  vertical-align: top ; 
-  margin-bottom: 2% ;
-}
-  
-.quatre_riso img{
-  width: 100% ;
-  height: 45% ; 
-  margin : 3% auto; 
- /* margin-top: 0% ; */
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 2%;
 }
 
+.quatre_riso img {
+	width: 100%;
+	height: 45%;
+	margin: 3% auto;
+	/* margin-top: 0% ; */
+}
 
+#lienAmis {
+	color: white;
+	text-decoration: underline;
+}
 
-
+#lienAmis:hover {
+	color: #f0cce2;
+}
 
 /* ///////////////////////////Fin img PAYSAGE lOUFOQUE/////////////////*/
 
-
 /*////FIN PAGE D'UN PROJET/////////////////////////*/
 
-
-
-
 /*///////////////////////////////Amis///////////////////////////////*/
-#ConteneurAmis{
-  width: 93.9vw ;
-  display: grid;
-  grid-template-columns:1fr 1fr;
-  grid-gap: 20px;
-  /*Il faudra trouver une autre méthode pour bien placer la section*/
-  margin-top: -220px;
+#ConteneurAmis {
+  width: 95vw;
+  margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	/*Il faudra trouver une autre méthode pour bien placer la section*/
 }
 
 /*CG=colonne de gauche*/
-#CG{
-   /* background-color: red;*/
-  }
-/*CG=colonne de droite contient les noms*/
-#CD{
-   /* background-color: blue;*/
-  }
+#CG,
+#CD {
+  margin-top: 5vh;
+  height: 100%;
+}
 
 /*titre des classe DNMADE 2 & 3*/
-.titreAmis{
-  font-family: 'Lilita One', cursive;
-  color: #5A0C3F ;
-  text-align: center; 
-  font-size: 4em;
-  }
+.titreAmis {
+	font-family: "Lilita One", cursive;
+	color: #5a0c3f;
+	text-align: center;
+	font-size: 4em;
+}
 
 /*Parle à l'aspect des noms dans la liste*/
-.nomAmis{
-  font-family: 'Quicksand',sans-serif;
-  color: #5A0C3F ;
-  text-align: left; 
-  font-size: 2.2em;
-  margin-top: 40px;
-  margin-left: 165px;
-  }
-
-.site{
- color: #5A0C3F ;
+.nomAmis {
+	font-family: "Quicksand", sans-serif;
+	color: #5a0c3f;
+	text-align: left;
+	font-size: 2.2em;
+	margin-top: 40px;
+	margin-left: 165px;
 }
-  /*action hover*/
 
-  .li_Amis:hover{
-  font-family: 'Lilita One', cursive;
-  }
+.site {
+	color: #5a0c3f;
+}
+/*action hover*/
+
+.li_Amis:hover {
+	font-family: "Lilita One", cursive;
+}
 
 /*///////////////////////////////Fin Amis///////////////////////////////*/
 
+/*La case vide sert pour la MenuProjets pour garder tjrs un nb pair de cases*/
+#CaseVide {
+	background-color: #f0cce2;
 
-
-
+	width: 400px;
+	height: 400px;
+}
 
 /*///////////////////////////Bouton de navigation///////////////////////////*/
-#BoutonNext{
-  width: 59vw ; 
-  display: flex;
-  margin : auto ;
-  justify-content: space-between;
- /*border : 1px solid pink;*/
+#BoutonNext {
+	width: 59vw;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	/*border : 1px solid pink;*/
 }
 
 #BoutonNext li {
-  width: 4vw ; 
-} 
+	width: 4vw;
+}
 
 #BoutonNext li img {
-  width: 100% ; 
-} 
+	width: 100%;
+}
 
 #BoutonNext img:hover {
-  width: 4.2vw;
-  cursor: pointer;
-  transition: 0.2s ; 
-} 
+	width: 4.2vw;
+	cursor: pointer;
+	transition: 0.2s;
+}
 
+/*Partie pour un seul bouton */
 
-/*///////Partie pour un seul bouton ////// */
-#BoutonNextseul{
-  width: 59vw ; 
-  display: flex;
-  margin-left: 48.2%;
-  justify-content: space-between;
+#BoutonNextseul {
+	width: 59vw;
+	display: flex;
+	margin-left: 50%;
+	justify-content: space-between;
+
+	/*border : 1px solid pink;*/
 }
 
 #BoutonNextseul li {
-  width: 4vw ; 
-} 
+	width: 4vw;
+}
 
 #BoutonNextseul li img {
-  width: 100% ; 
-} 
+	width: 100%;
+}
 
 #BoutonNextseul img:hover {
-  width: 4.2vw;
-  cursor: pointer;
-  transition: 0.2s ; 
-} 
-/*///////Fin Partie pour un seul bouton ////// */
+	width: 4.2vw;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+i {
+	font-style: italic;
+}
 
 /*////////////////////Fin traitement Bouton de navigation///////////////////*/
 
-
-
-
 /* ////////début du footer/////////////*/
 
-footer{
-  width: 6vw;
-  position: fixed;
-  right: 1.5vw ;
-  bottom: 1vw ;  
+footer {
+	width: 6vw;
+	position: fixed;
+	right: 1.5vw;
+	bottom: 1vw;
 }
 
-footer ul{
-  width: 100% ;
-  display: flex;
-  justify-content: space-between;
+footer ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
-footer ul li{
-  width: 40%;
+footer ul li {
+	width: 40%;
 }
 
 footer ul li img {
-  width: 100% ; 
+	width: 100%;
 }
 /* ///////////fin du footer/////////////////*/
