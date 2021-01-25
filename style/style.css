@@ -657,8 +657,8 @@ p {
 
 /*///////////////////////////////Amis///////////////////////////////*/
 #ConteneurAmis {
-  width: 95vw;
-  margin: auto;
+	width: 95vw;
+	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
@@ -668,8 +668,8 @@ p {
 /*CG=colonne de gauche*/
 #CG,
 #CD {
-  margin-top: 5vh;
-  height: 100%;
+	margin-top: 5vh;
+	height: 100%;
 }
 
 /*titre des classe DNMADE 2 & 3*/
