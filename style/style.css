@@ -23,7 +23,7 @@
 
 body {
 	overflow-x: hidden;
-	background-color: #d8ceca;
+	background-color: #EBEBEB;
 	/* font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;*/
@@ -38,11 +38,12 @@ sup {
 /*//////////////////////////////////Header//////////////////////////*/
 
 header {
+	/*border: 2px solid yellow; */
 	width: 100vw;
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
-	background-color: #5a0c3f;
+	/*background-color: #5a0c3f;*/
 }
 
 #logo {
@@ -58,9 +59,9 @@ header {
 }
 
 h1 {
-	font-family: "Lilita One", cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.4em;
-	color: #faf2ef;
+	color: black; 
 	text-align: left;
 	margin-left: 3%;
 	/*border: 1px solid red ;*/
@@ -80,8 +81,8 @@ header li {
 }
 
 .li_hearder {
-	font-family: "Lilita One", cursive;
-	color: #faf2ef;
+	font-family: 'Roboto', sans-serif;
+	color: black;
 	font-size: 1.5em;
 }
 
@@ -93,11 +94,11 @@ header li {
 }
 
 .a_hearder:link {
-	color: #faf2ef;
+	color: black;
 }
 
 .a_hearder:visited {
-	color: #faf2ef;
+	color: black;
 }
 
 .a_hearder:hover {
@@ -118,7 +119,7 @@ header li {
 .slider {
 	/*border: 2px solid red;*/
 	width: 100vw;
-	margin: 20px auto;
+	margin: auto;
 	height: 80vh;
 	position: relative;
 	overflow: hidden;
@@ -147,7 +148,7 @@ header li {
 	margin: 2rem 12px;
 	border-radius: 50%;
 	z-index: 10;
-	background-color: #5a0c3f;
+	background-color: black;
 	outline: none;
 	box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
 	cursor: pointer;
@@ -215,13 +216,13 @@ header li {
 .titre_slider {
 	width: 100%;
 	font-weight: 500;
-	font-family: "Lilita One", cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
-	color: #5a0c3f;
+	color: black;
 }
 
 .sous_titre_slider {
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
@@ -288,10 +289,9 @@ ducoup tes images doivent faire 250x250px*/
 
 /*titre du projet*/
 h2 {
-	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
-	font-family: "Lilita One", cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
-	color: #5a0c3f;
+	color: black;
 	text-align: center;
 	/*margin-top: 10vh; /*ce margin top permet de centrer le h2 et h4 
   se calera automatiquement avec*/
@@ -299,9 +299,8 @@ h2 {
 
 /*sous titre = catégorie*/
 h4 {
-	text-shadow: 0 1px 5px rgba(0, 0, 0, 1.5);
-	font-family: "Lilita One", cursive;
-	color: #faf2ef;
+	font-family: 'Roboto', sans-serif;
+	color: black;
 	text-align: center;
 	margin-top: 5px;
 }
@@ -356,9 +355,9 @@ h4 {
 
 /*TitreAbout= Qui suis-je*/
 #titreAbout {
-	font-family: "Lilita One", cursive;
+	font-family: 'Roboto', sans-serif;
 	font-size: 6em;
-	color: #5a0c3f;
+	color: black;
 	text-align: center;
 	margin: 80px auto;
 }
@@ -369,7 +368,7 @@ h4 {
 }
 
 #textAbout {
-	font-family: "Quicksand", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -381,11 +380,11 @@ h4 {
 
 /*partie des btn dans ul = CV,mail & amis*/
 .li_About {
-	color: #faf2ef;
-	font-family: "Lilita One", cursive;
+	color: white;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	display: inline-block;
-	background-color: #5a0c3f;
+	background-color: black;
 	justify-content: space-between;
 	border-radius: 8px;
 	margin-left: 105px;
@@ -418,16 +417,15 @@ h4 {
 
 .titre_projet {
 	margin: auto;
-	color: #5a0c3f;
+	color: black;
 	width: 61.3vw;
 	text-align: center;
 	font-size: 6em;
 }
 
 .sous_titre_projet {
-	color: white;
-	text-shadow: 0px 1px 1px #5a0c3f;
-	font-family: "Quicksand", sans-serif;
+	color: black;
+	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	margin-top: 3%;
 }
@@ -438,14 +436,13 @@ p {
 	text-align: left;
 	margin-top: 8%;
 	margin-left: 2%;
-	color: #5a0c3f;
-	text-shadow: 0px 1px 1px;
-	font-family: "Quicksand", sans-serif;
+	color: black;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.3em;
 }
 
 .a_projet {
-	color: #5a0c3f;
+	color: black;
 }
 
 .a_projet:link {
@@ -606,7 +603,7 @@ p {
 
 .Riso_texte {
 	text-align: left;
-	color: white;
+	color: black;
 }
 
 .quatre_riso {
@@ -643,12 +640,12 @@ p {
 }
 
 #lienAmis {
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
 #lienAmis:hover {
-	color: #f0cce2;
+	color: black;
 }
 
 /* ///////////////////////////Fin img PAYSAGE lOUFOQUE/////////////////*/
@@ -657,8 +654,8 @@ p {
 
 /*///////////////////////////////Amis///////////////////////////////*/
 #ConteneurAmis {
-	width: 95vw;
-	margin: auto;
+  width: 95vw;
+  margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
@@ -668,22 +665,22 @@ p {
 /*CG=colonne de gauche*/
 #CG,
 #CD {
-	margin-top: 5vh;
-	height: 100%;
+  margin-top: 5vh;
+  height: 100%;
 }
 
 /*titre des classe DNMADE 2 & 3*/
 .titreAmis {
-	font-family: "Lilita One", cursive;
-	color: #5a0c3f;
+	font-family: 'Roboto', sans-serif;
+	color: black;
 	text-align: center;
 	font-size: 4em;
 }
 
 /*Parle à l'aspect des noms dans la liste*/
 .nomAmis {
-	font-family: "Quicksand", sans-serif;
-	color: #5a0c3f;
+	font-family: 'Roboto', sans-serif;
+	color: black;
 	text-align: left;
 	font-size: 2.2em;
 	margin-top: 40px;
@@ -691,19 +688,20 @@ p {
 }
 
 .site {
-	color: #5a0c3f;
+	color: black;
 }
 /*action hover*/
 
 .li_Amis:hover {
-	font-family: "Lilita One", cursive;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
 }
 
 /*///////////////////////////////Fin Amis///////////////////////////////*/
 
 /*La case vide sert pour la MenuProjets pour garder tjrs un nb pair de cases*/
 #CaseVide {
-	background-color: #f0cce2;
+	background-color: black;
 
 	width: 400px;
 	height: 400px;
