@@ -1,3 +1,22 @@
+/* Importation des typos */
+
+@import url("https://rsms.me/inter/inter.css");
+:root {
+	font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: "Inter var", sans-serif;
+	}
+}
+
+@font-face {
+	font-family: "Roadiz";
+	src: url("./webfonts/RoadizSans-Medium.woff2") format("woff2");
+}
+
+/* *********************** */
+
 @-webkit-keyframes check {
 	50% {
 		outline-color: #333;
@@ -23,10 +42,8 @@
 
 body {
 	overflow-x: hidden;
-	background-color: #EBEBEB;
-	/* font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;*/
+	background-color: #ebebeb;
+	font-family: "Inter";
 }
 
 /*balise pour les exposants*/
@@ -35,36 +52,42 @@ sup {
 	font-size: 70%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li {
+	cursor: default;
+}
+
 /*//////////////////////////////////Header//////////////////////////*/
 
 header {
-	/*border: 2px solid yellow; */
 	width: 100vw;
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
-	/*background-color: #5a0c3f;*/
 }
 
-#logo {
+.logo {
 	width: 26vw;
-	/*border: 1px solid red; */
 	margin-left: 3.1vw;
 	display: flex;
 	align-items: center;
 }
 
-#logo img {
+.logo img {
 	width: 6.5vw;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.4em;
-	color: black; 
+	font-family: "Inter", sans-serif;
+	font-size: 1.5em;
+	color: black;
 	text-align: left;
 	margin-left: 3%;
-	/*border: 1px solid red ;*/
 }
 
 /*hearder ul c'est les petites boites qui contiennent tes boutons projets et about*/
@@ -81,7 +104,7 @@ header li {
 }
 
 .li_hearder {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	color: black;
 	font-size: 1.5em;
 }
@@ -215,14 +238,14 @@ header li {
 /*Titre de tes projets*/
 .titre_slider {
 	width: 100%;
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 2em;
+	font-weight: 600;
+	font-family: "Roadiz", sans-serif;
+	font-size: 3em;
 	color: black;
 }
 
 .sous_titre_slider {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
@@ -258,8 +281,6 @@ ducoup tes images doivent faire 250x250px*/
 .articleP {
 	width: 250px;
 	height: 250px;
-	/*border: 1px solid black; */
-	/*background-color: #5A0C3F  ;  */
 }
 
 /*taille de l'image*/
@@ -289,7 +310,7 @@ ducoup tes images doivent faire 250x250px*/
 
 /*titre du projet*/
 h2 {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roadiz", sans-serif;
 	font-size: 2em;
 	color: black;
 	text-align: center;
@@ -299,7 +320,7 @@ h2 {
 
 /*sous titre = catégorie*/
 h4 {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	color: black;
 	text-align: center;
 	margin-top: 5px;
@@ -321,7 +342,7 @@ h4 {
 /*///////////////Fin Menu Projets////////////*/
 
 /*/////////////////////////// About ////////////////////*/
-#ConteneurAbout {
+.ConteneurAbout {
 	width: 93.9vw;
 	height: 45vw;
 	margin: 30px auto;
@@ -334,7 +355,7 @@ h4 {
 		"image  boutons";
 }
 
-#ConteneurAbout img {
+.ConteneurAbout img {
 	width: 65%;
 	/*les 3 lignes ci-dessous servent à centrer l'img*/
 	display: block;
@@ -343,45 +364,45 @@ h4 {
 }
 
 /*A01=image de l'avatar*/
-#A01 {
+.A01 {
 	width: 45vw;
 	grid-area: image;
 }
 
 /*A02=article qui contient "Qui suis-je"*/
-#A02 {
+.A02 {
 	grid-area: titre;
 }
 
 /*TitreAbout= Qui suis-je*/
-#titreAbout {
-	font-family: 'Roboto', sans-serif;
+.titreAbout {
+	font-family: "Roadiz", sans-serif;
 	font-size: 6em;
 	color: black;
 	text-align: center;
 	margin: 80px auto;
 }
 
-#A03 {
+.A03 {
 	grid-area: paragraphe;
 	margin-top: -45px;
 }
 
-#textAbout {
-	font-family: 'Roboto', sans-serif;
+.textAbout {
+	font-family: "Inter", sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 }
 
 /*Contient les boutons mail, CV + Amis*/
-#A04 {
+.A04 {
 	grid-area: boutons;
 }
 
 /*partie des btn dans ul = CV,mail & amis*/
 .li_About {
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 2em;
 	display: inline-block;
 	background-color: black;
@@ -408,7 +429,7 @@ h4 {
 
 /*////////////////////////PAGE D'UN PROJET//////////////////////////////////*/
 
-#BlocTexteProjet {
+.BlocTexteProjet {
 	width: 61.3vw;
 	margin: auto;
 	margin-top: 8%;
@@ -425,20 +446,20 @@ h4 {
 
 .sous_titre_projet {
 	color: black;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 2em;
 	margin-top: 3%;
 }
 
 p {
 	width: 100%;
-	/* border : 1px solid red;*/
 	text-align: left;
 	margin-top: 8%;
 	margin-left: 2%;
 	color: black;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.3em;
+	font-size: 1vw;
+	font-weight: 200;
+	line-height: 1.4vw;
 }
 
 .a_projet {
@@ -455,20 +476,20 @@ p {
 
 /* ///////////////////////Page projet etrange bonbon///////////////////////*/
 
-#deux_EB {
+.deux_EB {
 	display: inline-block;
 	vertical-align: top;
 	width: 48%;
 	margin-left: 1%;
 }
 
-#trois_EB {
+.trois_EB {
 	width: 100%;
 	margin-left: 2%;
 	margin-top: 2%;
 }
 
-#quatre_EB {
+.quatre_EB {
 	display: inline-block;
 	width: 45%;
 	margin-left: 3%;
@@ -476,21 +497,21 @@ p {
 	margin-bottom: 3%;
 }
 
-#deux_EB img {
+.deux_EB img {
 	width: 100%;
 	height: 81.8%;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
 
-#trois_EB img {
+.trois_EB img {
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: 3%;
 }
 
-#quatre_EB img {
+.quatre_EB img {
 	width: 100%;
 	height: 39.1%;
 	margin: 3% auto;
@@ -501,67 +522,67 @@ p {
 
 /*/////////////////////Conteneur projet des danseuses///////////////////*/
 
-#conteneur_Photos {
+.conteneur_Photos {
 	width: 61.3vw;
 	margin: 5% auto;
 }
 
-#Un {
+.Un {
 	display: inline-block;
 	width: 47%;
 	margin-left: 2%;
 	vertical-align: top;
 }
 
-#deux {
+.deux {
 	display: inline-block;
 	vertical-align: top;
 	width: 46.5%;
 	margin-left: 2%;
 }
 
-#trois {
+.trois {
 	width: 96%;
 	margin-left: 2%;
 	margin-top: 2%;
 }
 
-#quatre {
+.quatre {
 	display: inline-block;
 	width: 47%;
 	margin-left: 2%;
 	vertical-align: top;
 }
 
-#Un img {
+.Un img {
 	width: 100%;
 	margin: 3% auto;
 	/* margin-top: 0% ; */
 }
 
-#deux img {
+.deux img {
 	width: 100%;
 	margin-top: 3%;
 	margin-bottom: 3%;
 }
 
-#deux_vertical {
+.deux_vertical {
 	height: 84%;
 }
 
-#deux_horizontal {
+.deux_horizontal {
 	height: 31.5%;
 	margin-top: 3%;
 }
 
-#trois img {
+.trois img {
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
 	margin-bottom: 3%;
 }
 
-#quatre img {
+.quatre img {
 	width: 100%;
 	height: 39.1%;
 	margin: 3% auto;
@@ -586,7 +607,7 @@ p {
 	margin-left: 2%;
 }
 
-#riso03 {
+.riso03 {
 	height: 52.8%;
 }
 
@@ -639,12 +660,12 @@ p {
 	/* margin-top: 0% ; */
 }
 
-#lienAmis {
+.lienAmis {
 	color: black;
 	text-decoration: underline;
 }
 
-#lienAmis:hover {
+.lienAmis:hover {
 	color: black;
 }
 
@@ -653,9 +674,9 @@ p {
 /*////FIN PAGE D'UN PROJET/////////////////////////*/
 
 /*///////////////////////////////Amis///////////////////////////////*/
-#ConteneurAmis {
-  width: 95vw;
-  margin: auto;
+.ConteneurAmis {
+	width: 95vw;
+	margin: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
@@ -663,15 +684,15 @@ p {
 }
 
 /*CG=colonne de gauche*/
-#CG,
-#CD {
-  margin-top: 5vh;
-  height: 100%;
+.CG,
+.CD {
+	margin-top: 5vh;
+	height: 100%;
 }
 
 /*titre des classe DNMADE 2 & 3*/
 .titreAmis {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roadiz", sans-serif;
 	color: black;
 	text-align: center;
 	font-size: 4em;
@@ -679,10 +700,12 @@ p {
 
 /*Parle à l'aspect des noms dans la liste*/
 .nomAmis {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	line-height: 1.2em;
 	color: black;
 	text-align: left;
-	font-size: 2.2em;
+	font-size: 2em;
 	margin-top: 40px;
 	margin-left: 165px;
 }
@@ -693,22 +716,21 @@ p {
 /*action hover*/
 
 .li_Amis:hover {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Inter", sans-serif;
 	font-size: 1.1em;
 }
 
 /*///////////////////////////////Fin Amis///////////////////////////////*/
 
 /*La case vide sert pour la MenuProjets pour garder tjrs un nb pair de cases*/
-#CaseVide {
+.CaseVide {
 	background-color: black;
-
 	width: 400px;
 	height: 400px;
 }
 
 /*///////////////////////////Bouton de navigation///////////////////////////*/
-#BoutonNext {
+.BoutonNext {
 	width: 59vw;
 	display: flex;
 	margin: auto;
@@ -716,15 +738,15 @@ p {
 	/*border : 1px solid pink;*/
 }
 
-#BoutonNext li {
+.BoutonNext li {
 	width: 4vw;
 }
 
-#BoutonNext li img {
+.BoutonNext li img {
 	width: 100%;
 }
 
-#BoutonNext img:hover {
+.BoutonNext img:hover {
 	width: 4.2vw;
 	cursor: pointer;
 	transition: 0.2s;
@@ -732,7 +754,7 @@ p {
 
 /*Partie pour un seul bouton */
 
-#BoutonNextseul {
+.BoutonNextseul {
 	width: 59vw;
 	display: flex;
 	margin-left: 50%;
@@ -741,15 +763,15 @@ p {
 	/*border : 1px solid pink;*/
 }
 
-#BoutonNextseul li {
+.BoutonNextseul li {
 	width: 4vw;
 }
 
-#BoutonNextseul li img {
+.BoutonNextseul li img {
 	width: 100%;
 }
 
-#BoutonNextseul img:hover {
+.BoutonNextseul img:hover {
 	width: 4.2vw;
 	cursor: pointer;
 	transition: 0.2s;
