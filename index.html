@@ -1,93 +1,252 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 	<head>
-		<title>Accueil</title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style/reset.css" />
-		<link rel="stylesheet" type="text/css" href="style/style.css" />
-	
-		<link rel="shortcut icon" href="images/BoutonNavig/logo02.png" />
-
-		<script type="text/javascript" src="js/jquery.js"></script>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/reset.css" />
+		<link rel="stylesheet" href="style/style.css" />
+		<title>Mailie Hombert accueil</title>
 	</head>
-
 	<body>
-		<header>
-			<div class="logo">
-				<a href="index.html"
-					><img
-						src="images/BoutonNavig/logo.png"
-						alt="logo de mailie hombert graphiste. Le logo représente les initiales MH pour Maïlie Hombert."
-				/></a>
-				<h1>Maïlie Hombert Graphiste</h1>
-			</div>
-
-			<ul>
-				<!--boutons vers les liens des page projets et about-->
-				<li class="li_hearder"><a class="a_hearder" href="Projets.html">Projets</a></li>
-				<li class="li_hearder"><a class="a_hearder" href="about.html">About</a></li>
-			</ul>
-		</header>
-
-		<!-- début du slider -->
-		<div class="slider">
-			<input type="radio" name="slider" title="Projet01" checked="checked" class="slider_btn" />
-			<input type="radio" name="slider" title="Projet02" class="slider_btn" />
-			<input type="radio" name="slider" title="Projet03" class="slider_btn" />
-
-			<section class="slider_boite">
-				<article class="article_slider">
-					<h2 class="titre_slider">L'étrange Bonbon</h2>
-					<h3 class="sous_titre_slider">Bande dessinée interactive</h3>
-					<div class="slider_image">
-						<a href="P01_EtrangeBonbon.html"
-							><img
-								src="images/Accueil/PAccueil01.jpg"
-								alt="Dessin d'un garçon inquiet tenant son téléphone rouge dans les mains.Ce dessin provient de la bande dessinée interactive L'étrange bonbon de Maïlie Hombert Graphiste"
-						/></a>
-					</div>
-				</article>
-
-				<article class="article_slider">
-					<h2 class="titre_slider">Les Danseuses</h2>
-					<h3 class="sous_titre_slider">Photographie</h3>
-					<div class="slider_image">
-						<a href="P02_LesDanseuses.html"
-							><img
-								src="images/Accueil/PAccueil02.jpg"
-								alt="Photographie cadrée sur le visage d'une danseuses allongée au sol,le visage souriant touné vers l'objectif.Photographie du projet Les danseuses de Maïlie Hombert Graphiste"
-						/></a>
-					</div>
-				</article>
-
-				<article class="article_slider">
-					<h2 class="titre_slider">Paysage Loufoque</h2>
-					<h3 class="sous_titre_slider">Risographie</h3>
-					<div class="slider_image">
-						<a href="P03_PaysageRiso.html"
-							><img
-								src="images/Accueil/Accueil003.jpg"
-								alt="Illustration en risographie d'un paysage enfantin/fantastique du mois de février. Au premier plan, un skieur attaché par la langue de la montagne en arrière plan qui représente une piste de skie. Dessin imprimé en risographie réalisé par Maïlie Hombert Graphiste."
-						/></a>
-					</div>
-				</article>
-			</section>
+		<div class="fond-global">
+			<img src="" alt="" />
 		</div>
 
-		<!-- fin du slider -->
+		<header>
+			<nav>
+				<div class="nav-logo">
+					<div class="image-nav">
+						<a href="index.html">
+							<img src="import/navigation/logo_mailie.svg" />
+						</a>
+					</div>
+					<h1>Mailie Hombert</h1>
+				</div>
+				<div class="nav-about">
+					<div class="image-nav">
+						<a href="about.html">
+							<img src="import/navigation/about.svg" />
+						</a>
+					</div>
+					<div class="image-nav">
+						<a href="https://vimeo.com/manage/videos" target="_blank">
+							<img src="import/navigation/vimeo.svg" />
+						</a>
+					</div>
+					<div class="image-nav">
+						<a href="https://www.instagram.com/eiliamn/" target="_blank">
+							<img src="import/navigation/insta.svg" />
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-		<footer>
-			<ul>
-				<li>
-					<a target="blank" href="https://www.facebook.com/profile.php?class=100010989731527&viewas=100000686899395"
-						><img src="images/BoutonNavig/F.png"
-					/></a>
-				</li>
-				<li>
-					<a target="blank" href="https://www.instagram.com/eiliamn/?hl=fr"
-						><img src="images/BoutonNavig/I.png"
-					/></a>
-				</li>
-			</ul>
-		</footer>
+		<div class="conteneur-global">
+			<div class="conteneur-index">
+				
+				<a href="./loop.html">
+					<article class="projet-loop">
+						<img
+							src="import/index/loop.jpg"
+							alt="Dessin de la Famille Fandams réalisé par Mailie Hombert"
+						/>
+						<div class="titre-article-loop">
+							<div class="couleur-papier">
+								<h2>Loop</h2>
+								<h3>Illustration/Réalité Augmentée</h3>
+							</div>
+						</div>
+					</article>
+				</a>
+
+				<a href="P03_PaysageRiso.html">
+					<article class="projet-calendrier">
+						<img
+							src="import/index/calendrier-riso.jpg"
+							alt="Photo des cartes du jeu Yokarte"
+						/>
+						<div class="titre-article-calendrier">
+							<div class="couleur-papier">
+								<h2>Le paysage loufoque</h2>
+								<h3>Illustration/Risographie</h3>
+							</div>
+						</div>
+					</article>
+				</a>
+
+				<a href="P02_LesDanseuses.html">
+					<article class="projet-danseuses">
+						<img
+							src="import/index/danseuses.jpg"
+							alt="Photo de la série photo Les danseuses de Mailie Hombert, modèle Annouck Saussier"
+						/>
+						<div class="titre-article-danseuses">
+							<div class="couleur-papier">
+								<h2>Les Danseuses</h2>
+								<h3>Photographie</h3>
+							</div>
+						</div>
+					</article>
+				</a>
+
+				<article class="projet-flipbook">
+					<img
+						src="import/index/flipbook.jpg"
+						alt="Photo du flipbook réalisé par Mailie Hombert"
+					/>
+					<div class="titre-article-flipbook">
+						<div class="couleur-papier">
+							<h2>Flipbook</h2>
+							<h3>Illustration/Animation</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-reconte">
+					<img
+						src="import/index/reconte.jpg"
+						alt="Photo du jeu Reconte une histoire"
+					/>
+					<div class="titre-article-reconte">
+						<div class="couleur-papier">
+							<h2>Reconte une histoire</h2>
+							<h3>Game design</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-pantin">
+					<img
+						src="import/index/pantin.jpg"
+						alt="Photo d'un pantin réalisé par Mailie H"
+					/>
+					<div class="titre-article-pantin">
+						<div class="couleur-papier">
+							<h2>Les Pantins articulés</h2>
+							<h3>Illustration</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-grid">
+					<img
+						src="import/index/grid.jpg"
+						alt="Dessin du projet Grid Clown réalisé par Mailie Hombert"
+					/>
+					<div class="titre-article-grid">
+						<div class="couleur-papier">
+							<h2>Grid Clown</h2>
+							<h3>Illustration/Motion design</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-clown">
+					<img
+						src="import/index/clown.jpg"
+						alt="Photo de la série Clown de Mailie Hombert"
+					/>
+					<div class="titre-article-clown">
+						<div class="couleur-papier">
+							<h2>Le Clown</h2>
+							<h3>Photographie</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-pino">
+					<img
+						src="import/index/pinocchio.jpg"
+						alt="Photo du livre Pinocchio en Pop-up réalisé par Mailie Hombert"
+					/>
+					<div class="titre-article-pino">
+						<div class="couleur-papier">
+							<h2>Pinocchio Pop-up</h2>
+							<h3>Edition</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-masque">
+					<img
+						src="import/index/masque.jpg"
+						alt="photo de la série Masque de Mailie Hombert"
+					/>
+					<div class="titre-article-masque">
+						<div class="couleur-papier">
+							<h2>Le masque</h2>
+							<h3>Photographie</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-carnet">
+					<img
+						src="import/index/carnetidentite.jpg"
+						alt="Photo du carnet de Mailie Hombert"
+					/>
+					<div class="titre-article-carnet">
+						<div class="couleur-papier">
+							<h2>Carnet</h2>
+							<h3>Edition</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-yokarte">
+					<img
+						src="import/index/yokarte.jpg"
+						alt="Photo des cartes du jeu Yokarte"
+					/>
+					<div class="titre-article-yokarte">
+						<div class="couleur-papier">
+							<h2>Yokarte</h2>
+							<h3>Game design</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-alphabet">
+					<img
+						src="import/index/alphabetvile.jpg"
+						alt="Photo de l'alphabet Franstein réalisé par Mailie Hombert"
+					/>
+					<div class="titre-article-alphabet">
+						<div class="couleur-papier">
+							<h2>AlphabetVille</h2>
+							<h3>Typographie</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-expserigra">
+					<img
+						src="import/index/serigraphie-experimental.jpg"
+						alt="photo du projet expérimental en sérigraphie de Mailie Hombert"
+					/>
+					<div class="titre-article-expserigra">
+						<div class="couleur-papier">
+							<h2>Carnet expérimental</h2>
+							<h3>Sérigraphie</h3>
+						</div>
+					</div>
+				</article>
+
+				<article class="projet-dmdm">
+					<img
+						src="import/index/dismoidixmots.jpg"
+						alt="image du projet dis moi dix mots de Mailie Hombert"
+					/>
+					<div class="titre-article-dmdm">
+						<div class="couleur-papier">
+							<h2>Dis-moi dix mots</h2>
+							<h3>Motion design/Edition</h3>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
 	</body>
 </html>

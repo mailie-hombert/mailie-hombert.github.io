@@ -15,6 +15,233 @@
 	src: url("./webfonts/RoadizSans-Medium.woff2") format("woff2");
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+	background-image: url("../import/textures/fond-global-bis.jpg");
+}
+
+sup {
+	vertical-align: super;
+	font-size: 70%;
+}
+
+i {
+	font-style: italic;
+}
+
+h1,
+h2 {
+	font-family: "Roadiz";
+}
+
+h3,
+p {
+	font-family: "Inter var";
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 2.5vw;
+	line-height: 1.3em;
+}
+
+h2 {
+	font-size: 2vw;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 1.3vw;
+	line-height: 1.1em;
+	font-weight: 300;
+}
+
+h4 {
+	font-family: "Inter", sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+
+p {
+	font-size: 1vw;
+	font-weight: 200;
+}
+
+header {
+	position: fixed;
+	z-index: 10;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: rgb(200, 200, 200);
+	/*mix-blend-mode: multiply;*/
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	background-image: url("../import/textures/fond-global-bis.jpg");
+	mix-blend-mode: multiply;
+}
+
+[class*="nav-"] {
+	display: flex;
+	margin: 0.6vw 1.2vw;
+}
+
+.nav-logo {
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav-about {
+	flex-direction: row-reverse;
+	align-items: center;
+}
+
+.nav-logo .image-nav,
+.nav-logo .image-nav a {
+	height: 2.8vw;
+}
+
+.nav-about .image-nav,
+.nav-about .image-nav a {
+	height: 2.4vw;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.image-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1vw;
+}
+
+.image-nav img {
+	height: 100%;
+	object-fit: cover;
+}
+
+/**************************************************************/
+
+.conteneur-global {
+	margin-top: 6vw;
+	width: 100%;
+}
+
+.conteneur-index {
+	display: grid;
+	width: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 1vw;
+}
+
+[class*="projet-"] {
+	margin: 1vw;
+	height: 20vw;
+	overflow: hidden;
+}
+
+[class*="projet-"] img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	mix-blend-mode: multiply;
+	filter: opacity(1);
+	transition: filter 0.4s ease-in-out;
+}
+
+[class*="titre-article-"] {
+	height: 10vw;
+	background-image: url("../import/textures/fond-global-bis.jpg");
+	transition: transform 0.4s ease-in-out;
+}
+.couleur-papier {
+	width: 100%;
+	height: 100%;
+	padding: 1vw 1.1vw;
+	mix-blend-mode: multiply;
+}
+
+.titre-article-loop .couleur-papier {
+	background-color: rgba(18, 39, 128, 0.4);
+}
+
+.titre-article-flipbook .couleur-papier {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.titre-article-reconte .couleur-papier {
+	background-color: rgba(166, 20, 24, 0.4);
+}
+
+.titre-article-pantin .couleur-papier {
+	background-color: rgba(116, 162, 204, 0.4);
+}
+
+.titre-article-grid .couleur-papier {
+	background-color: rgba(158, 91, 242, 0.4);
+}
+
+.titre-article-clown .couleur-papier {
+	background-color: rgba(227, 43, 6, 0.4);
+}
+
+.titre-article-pino .couleur-papier {
+	background-color: rgba(227, 48, 67, 0.4);
+}
+
+.titre-article-masque .couleur-papier {
+	background-color: rgba(224, 64, 40, 0.4);
+}
+
+.titre-article-carnet .couleur-papier {
+	background-color: rgba(184, 133, 130, 0.4);
+}
+
+.titre-article-yokarte .couleur-papier {
+	background-color: rgba(200, 194, 166, 0.4);
+}
+
+.titre-article-alphabet .couleur-papier {
+	background-color: rgba(250, 215, 113, 0.4);
+}
+
+.titre-article-expserigra .couleur-papier {
+	background-color: rgba(87, 251, 91, 0.4);
+}
+
+.titre-article-calendrier .couleur-papier {
+	background-color: rgba(240, 90,11, 0.4);
+}
+
+.titre-article-dmdm .couleur-papier {
+	background-color: rgba(11, 90,240, 0.4);
+}
+.titre-article-danseuses .couleur-papier {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+article:hover [class*="titre-article-"] {
+	transform: translateY(-10vw);
+	transition: transform 0.4s ease-in-out;
+}
+
+
+
+article:hover img {
+	/* filter: opacity(0.5); */
+	transition: filter 0.4s ease-in-out;
+}
+
 /* *********************** */
 
 @-webkit-keyframes check {
@@ -38,241 +265,7 @@
 		box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
 	}
 }
-/*////////////////// fin de la déclaration des animations*/
 
-body {
-	overflow-x: hidden;
-	background-color: #ebebeb;
-	font-family: "Inter";
-}
-
-/*balise pour les exposants*/
-sup {
-	vertical-align: super;
-	font-size: 70%;
-}
-
-/* Réglage du curseur */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-li {
-	cursor: default;
-}
-
-.BoutonNextseul img,
-.BoutonNext img,
-.slider_btn,
-.h2_Menu {
-	cursor: pointer;
-}
-
-/*//////////////////////////////////Header//////////////////////////*/
-
-header {
-	width: 100vw;
-	height: 100px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo {
-	width: 26vw;
-	margin-left: 3.1vw;
-	display: flex;
-	align-items: center;
-}
-
-.logo img {
-	width: 6.5vw;
-}
-
-h1 {
-	font-family: "Inter", sans-serif;
-	font-size: 1.5em;
-	color: black;
-	text-align: left;
-	margin-left: 3%;
-}
-
-/*hearder ul c'est les petites boites qui contiennent tes boutons projets et about*/
-header ul {
-	width: 20vw;
-	display: flex;
-}
-
-header li {
-	width: 18vw;
-	margin-right: 3.1vw;
-	height: 40px;
-	margin-top: 40px;
-}
-
-.li_hearder {
-	font-family: "Inter", sans-serif;
-	color: black;
-	font-size: 1.5em;
-}
-
-/*a permet de parler à 'aspect des boutons Projet et About*/
-
-.a_hearder {
-	outline: none;
-	text-decoration: none;
-}
-
-.a_hearder:link {
-	color: black;
-}
-
-.a_hearder:visited {
-	color: black;
-}
-
-.a_hearder:hover {
-	text-decoration: underline;
-}
-
-/* //////////////////////////////fin du header///////////////////////////*/
-
-/*//////////////////////////PAGE ACCEUIL///////////////////*
-
-/* ////////////SliderIndex/////////////*/
-
-/*!!!Pas toucher cette partie sauf pour modifier couleur!!!*/
-/*Sinon tu vas péter le site ENCORE !
-/* boite qui contient les btn + les articles*/
-
-/*les webkit c'est pour que tes effets puisse être combatible sur différents moteurs de recherches*/
-.slider {
-	/*border: 2px solid red;*/
-	width: 100vw;
-	margin: auto;
-	height: 80vh;
-	position: relative;
-	overflow: hidden;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-flow: row nowrap;
-	-ms-flex-flow: row nowrap;
-	flex-flow: row nowrap;
-	-webkit-box-align: end;
-	-webkit-align-items: flex-end;
-	-ms-flex-align: end;
-	align-items: flex-end;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-}
-
-/*apparence des boutons (les btn sont des balises input) en bas du slider*/
-
-.slider_btn {
-	width: 15px;
-	height: 15px;
-	margin: 2rem 12px;
-	border-radius: 50%;
-	z-index: 10;
-	background-color: black;
-	outline: none;
-	box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
-	/*modifie l'apparence initiale de la balise input sur tous les naviateurs*/
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	/*modifie l'apparence initiale de la balise input*/
-}
-
-/*lorsque l'input est selectionné*/
-.slider_btn:focus {
-	background-color: white;
-}
-
-/*lorsque l'input est activé*/
-.slider_btn:checked {
-	-webkit-animation: check 0.4s linear forwards;
-	animation: check 0.4s linear forwards;
-}
-.slider_btn:checked:nth-of-type(1) ~ .slider_boite {
-	left: 0%;
-}
-.slider_btn:checked:nth-of-type(2) ~ .slider_boite {
-	left: -100%;
-}
-.slider_btn:checked:nth-of-type(3) ~ .slider_boite {
-	left: -200%;
-}
-.slider_btn:checked:nth-of-type(4) ~ .slider_boite {
-	left: -300%;
-}
-
-/*boite qui contient les 4 articles*/
-
-.slider_boite {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 500%;
-	height: 100%;
-	-webkit-transition: left 0.4s;
-	transition: left 0.4s;
-	display: flex;
-	flex-flow: row nowrap;
-	/*ci dessous je parle à tous les navigateurs*/
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	-webkit-flex-flow: row nowrap;
-	-ms-flex-flow: row nowrap;
-}
-
-/*puis je parle aux articles*/
-
-.article_slider {
-	width: 100vw;
-	height: 100%;
-	text-align: center;
-}
-
-/*Titre de tes projets*/
-.titre_slider {
-	width: 100%;
-	font-weight: 600;
-	font-family: "Roadiz", sans-serif;
-	font-size: 3em;
-	color: black;
-}
-
-.sous_titre_slider {
-	font-family: "Inter", sans-serif;
-	margin-top: 5px;
-	margin-bottom: 15px;
-}
-
-.slider_image {
-	width: 99.6%;
-	height: 95%;
-	overflow: hidden;
-}
-
-.slider_image img {
-	width: 80%;
-}
-
-/* ////////fin du slider////////////*/
-
-/* ///////////////////////Fin Accueil///////////////////////*/
-
-/*//////////////////  Menu Projets////////////*/
 .conteneur {
 	/*border: 1px solid red ; */
 	width: 90vw;
@@ -315,24 +308,6 @@ ducoup tes images doivent faire 250x250px*/
 	opacity: 1;
 }
 
-/*titre du projet*/
-h2 {
-	font-family: "Roadiz", sans-serif;
-	font-size: 2em;
-	color: black;
-	text-align: center;
-	/*margin-top: 10vh; /*ce margin top permet de centrer le h2 et h4 
-  se calera automatiquement avec*/
-}
-
-/*sous titre = catégorie*/
-h4 {
-	font-family: "Inter", sans-serif;
-	color: black;
-	text-align: center;
-	margin-top: 5px;
-}
-
 .a_P {
 	outline: none;
 	text-decoration: none;
@@ -352,7 +327,7 @@ h4 {
 .ConteneurAbout {
 	width: 93.9vw;
 	height: 45vw;
-	margin: 30px auto;
+	margin: 8vw auto;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(3, 1fr);
@@ -374,6 +349,7 @@ h4 {
 .A01 {
 	width: 45vw;
 	grid-area: image;
+	mix-blend-mode: multiply;
 }
 
 /*A02=article qui contient "Qui suis-je"*/
@@ -526,15 +502,15 @@ p {
 }
 
 .video-present {
-    height: 90vh;
-    margin: 1vw auto;
+	height: 90vh;
+	margin: 1vw auto;
 }
 
 .video-present iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    -o-object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	-o-object-fit: cover;
 }
 
 /* ///////////////////////////fin etrange bonbon///////////////////*/
@@ -695,7 +671,7 @@ p {
 /*///////////////////////////////Amis///////////////////////////////*/
 .ConteneurAmis {
 	width: 95vw;
-	margin: auto;
+	margin: 5vw auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 50px;
@@ -793,33 +769,3 @@ p {
 	width: 4.2vw;
 	transition: 0.2s;
 }
-
-i {
-	font-style: italic;
-}
-
-/*////////////////////Fin traitement Bouton de navigation///////////////////*/
-
-/* ////////début du footer/////////////*/
-
-footer {
-	width: 6vw;
-	position: fixed;
-	right: 1.5vw;
-	bottom: 1vw;
-}
-
-footer ul {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-
-footer ul li {
-	width: 40%;
-}
-
-footer ul li img {
-	width: 100%;
-}
-/* ///////////fin du footer/////////////////*/
