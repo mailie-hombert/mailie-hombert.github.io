@@ -35,7 +35,7 @@
  /_/   \_\_|   \__|_|\___|_|\___|
  -->
 
-  <article class="Réalité virtuelle">
+  <article class="filterDiv realite virtuelle livre">
     <h3>
       CADOZ, Claude (auteur).  
     </h3>
@@ -65,7 +65,7 @@
   </article>
 
 
-  <article class="filterDiv tag1 tag2">
+  <article class="filterDiv article realite virtuelle">
     <h3>
       MORRIET, Oriane (auteur).  
     </h3>
@@ -91,6 +91,69 @@
 
     <h6> 
       Consulté le 15/09/2021 
+    </h6>
+  
+  </article>
+
+
+
+  <article class="filterDiv interview video reamite virtuelle immersion">
+    <h3>
+      FUTURMAG-ARTE  
+    </h3>
+
+    <h4>
+      <a href="https://www.youtube.com/watch?v=guHt8dcCi-U" target="_blank">
+      Réalité virtuelle, vers l’immersion totale? 
+      </a>
+    </h4> 
+    
+    <h5>
+      ARTE, publié le 28 novembre 2016
+    </h5>
+    
+    <blockquote cit="Les mondes virtuels des mondes habitables de la même manière que notre monde réel.
+    Des gens iront travailler dans le monde virtuel ce sera leur vie ...">Citation</blockquote>
+    
+    <p> 
+      Vidéo de 20 minutes, expliquant les différentes avancées dans la VR en interviewant des spécialistes qui explique chacun leur point de vue sur la VR.
+      Montrant les avantages que cette technique pourrait apporter mais les inconvénients qu'elle pourrait engendrer sur l'Homme.
+    </p>
+   
+
+    <h6> 
+      Consultation le 20/09/21
+    </h6>
+  
+  </article>
+
+
+  <article class="filterDiv article realite virtuelle musee de l'orangerie">
+    <h3>
+       
+    </h3>
+
+    <h4>
+      <a href="http://www.club-innovation-culture.fr/exposition-clemenceau-monet-musee-orangerie-visite-virtuelle-nympheas/" target="_blank">
+        Titre, 
+      </a>
+    </h4> 
+    
+    <h5>
+      publié le 14 décembre 2018
+    </h5>
+    
+    <blockquote cit="Cette expérience vise à faire voyager le public dans l’espace et dans le temps">Citation</blockquote>
+    
+    <p> 
+      Les musées d’Orsay et de l’Orangerie en partenariat avec la Mission du centenaire de la Première Guerre mondiale, 
+      et dans le cadre de l’année Clemenceau, ont organisés un focus Monet – Clemenceau qui a été présenté au musée de l’Orangerie du 12 novembre 2018 au 11 mars 2019. 
+      Cette exposition s’accompagnait d’une exploration de 7min en VR des Nympheas. 
+    </p>
+   
+
+    <h6> 
+      lu le 21/09/2021
     </h6>
   
   </article>
