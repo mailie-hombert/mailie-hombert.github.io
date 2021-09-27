@@ -50,8 +50,8 @@
       Flammarion, publié en 1994.
     </h5>
     
-    <blockquote cit="#">"L'image aujourd'hui n'est plus seulement cet objet plan fait uniquement pour les yeux ;
-    ce sont des objets que l'on peut toucher, manipuler,entendre, et qui résistent ou s'animent sous nos mains, c'est un espace dans lequel on peut entrer".</blockquote>
+    <blockquote cit="L'image aujourd'hui n'est plus seulement cet objet plan fait uniquement pour les yeux ;
+    ce sont des objets que l'on peut toucher, manipuler,entendre, et qui résistent ou s'animent sous nos mains, c'est un espace dans lequel on peut entrer">.</blockquote>
     
     <p> 
     Ce livre décrit les techniques et le effets des réalités virtuelles et montre comment ces dernières permettent une immersion dans l'image.
@@ -65,7 +65,7 @@
   </article>
 
 
-  <article class="filterDiv article realite virtuelle">
+  <article class="filterDiv realite virtuelle">
     <h3>
       MORRIET, Oriane (auteur).  
     </h3>
@@ -80,8 +80,8 @@
       OpenEdition Journals, publié en 2019.
     </h5>
     
-    <blockquote cit="#">"Pour garder le contrôle sur l’histoire en train d’être narrée, les scénaristes attirent donc l’attention de l’utilisateur en utilisant tour à tour la proximité des objets du décor, l’action d’un personnage, la couleur, la lumière ou encore le son, 
-    comme le souligne Kath Dooley (2017, p. 169) dans son article « Storytelling with Virtual Reality in 360-Degrees: a New Screen Grammar" ».</blockquote>
+    <blockquote cit="Pour garder le contrôle sur l’histoire en train d’être narrée, les scénaristes attirent donc l’attention de l’utilisateur en utilisant tour à tour la proximité des objets du décor, l’action d’un personnage, la couleur, la lumière ou encore le son, 
+    comme le souligne Kath Dooley (2017, p. 169) dans son article « Storytelling with Virtual Reality in 360-Degrees: a New Screen Grammar">Citation</blockquote>
     
     <p> 
     Cette article fait un bilan des nouvelles compétences, approches et techniques de scénarisation 
@@ -97,14 +97,14 @@
 
 
 
-  <article class="filterDiv interview video reamite virtuelle immersion">
+  <article class="filterDiv realitevrtuelle">
     <h3>
       FUTURMAG-ARTE  
     </h3>
 
     <h4>
       <a href="https://www.youtube.com/watch?v=guHt8dcCi-U" target="_blank">
-      Réalité virtuelle, vers l’immersion totale? 
+      Réalité virtuelle, vers l’immersion totale ? 
       </a>
     </h4> 
     
@@ -128,7 +128,7 @@
   </article>
 
 
-  <article class="filterDiv article realite virtuelle musee de l'orangerie">
+  <article class="filterDiv realitevirtuelle">
     <h3>
        
     </h3>
