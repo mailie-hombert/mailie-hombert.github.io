@@ -18,8 +18,8 @@
 <section>
       
   <aside>    
-    <h2>
-    <a href="https://mailie-hombert.github.io/" target="_blank"> Maïlie HOMBERT</a>
+    <h2>Maïlie Hombert
+    <a href="https://mailie-hombert.github.io/" target="_blank">portfolio</a>
     </h2>
     <p>
       La réalité virtuelle
@@ -50,8 +50,8 @@
       Flammarion, publié en 1994.
     </h5>
     
-    <blockquote cit="L'image aujourd'hui n'est plus seulement cet objet plan fait uniquement pour les yeux ;
-    ce sont des objets que l'on peut toucher, manipuler,entendre, et qui résistent ou s'animent sous nos mains, c'est un espace dans lequel on peut entrer">.</blockquote>
+    <blockquote cit="#">L'image aujourd'hui n'est plus seulement cet objet plan fait uniquement pour les yeux ;
+    ce sont des objets que l'on peut toucher, manipuler,entendre, et qui résistent ou s'animent sous nos mains, c'est un espace dans lequel on peut entrer>Citation</blockquote>
     
     <p> 
     Ce livre décrit les techniques et le effets des réalités virtuelles et montre comment ces dernières permettent une immersion dans l'image.
@@ -80,7 +80,7 @@
       OpenEdition Journals, publié en 2019.
     </h5>
     
-    <blockquote cit="Pour garder le contrôle sur l’histoire en train d’être narrée, les scénaristes attirent donc l’attention de l’utilisateur en utilisant tour à tour la proximité des objets du décor, l’action d’un personnage, la couleur, la lumière ou encore le son, 
+    <blockquote cit="#">Pour garder le contrôle sur l’histoire en train d’être narrée, les scénaristes attirent donc l’attention de l’utilisateur en utilisant tour à tour la proximité des objets du décor, l’action d’un personnage, la couleur, la lumière ou encore le son, 
     comme le souligne Kath Dooley (2017, p. 169) dans son article « Storytelling with Virtual Reality in 360-Degrees: a New Screen Grammar">Citation</blockquote>
     
     <p> 
@@ -97,7 +97,7 @@
 
 
 
-  <article class="filterDiv realitevirtuelle">
+  <article class="filterDiv realitevirtuelle experienceimmersive interview">
     <h3>
       FUTURMAG-ARTE  
     </h3>
@@ -112,8 +112,8 @@
       ARTE, publié le 28 novembre 2016
     </h5>
     
-    <blockquote cit="Les mondes virtuels des mondes habitables de la même manière que notre monde réel.
-    Des gens iront travailler dans le monde virtuel ce sera leur vie ...">Citation</blockquote>
+    <blockquote cit="#">Les mondes virtuels des mondes habitables de la même manière que notre monde réel.
+    Des gens iront travailler dans le monde virtuel ce sera leur vie ...>Citation</blockquote>
     
     <p> 
       Vidéo de 20 minutes, expliquant les différentes avancées dans la VR en interviewant des spécialistes qui explique chacun leur point de vue sur la VR.
@@ -128,7 +128,7 @@
   </article>
 
 
-  <article class="filterDiv realitevirtuelle">
+  <article class="filterDiv realitevirtuelle experienceimmersive">
     <h3>
        
     </h3>
@@ -143,7 +143,7 @@
       publié le 14 décembre 2018
     </h5>
     
-    <blockquote cit="Cette expérience vise à faire voyager le public dans l’espace et dans le temps">Citation</blockquote>
+    <blockquote cit="#">Cette expérience vise à faire voyager le public dans l’espace et dans le temps>Citation</blockquote>
     
     <p> 
       Les musées d’Orsay et de l’Orangerie en partenariat avec la Mission du centenaire de la Première Guerre mondiale, 
