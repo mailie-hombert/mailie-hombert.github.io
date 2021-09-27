@@ -135,7 +135,7 @@
 
     <h4>
       <a href="http://www.club-innovation-culture.fr/exposition-clemenceau-monet-musee-orangerie-visite-virtuelle-nympheas/" target="_blank">
-        Titre, 
+      Exposition Clémenceau / Monet, immersion en réalité virtuelle dans les Nympheas
       </a>
     </h4> 
     
