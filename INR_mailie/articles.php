@@ -35,7 +35,7 @@
  /_/   \_\_|   \__|_|\___|_|\___|
  -->
 
-  <article class="filterDiv realite virtuelle livre">
+  <article class="filterDiv realitevirtuelle">
     <h3>
       CADOZ, Claude (auteur).  
     </h3>
@@ -65,7 +65,7 @@
   </article>
 
 
-  <article class="filterDiv realite virtuelle">
+  <article class="filterDiv realitevirtuelle">
     <h3>
       MORRIET, Oriane (auteur).  
     </h3>
@@ -97,7 +97,7 @@
 
 
 
-  <article class="filterDiv realitevrtuelle">
+  <article class="filterDiv realitevirtuelle">
     <h3>
       FUTURMAG-ARTE  
     </h3>
