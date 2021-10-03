@@ -22,7 +22,7 @@
     <a href="https://mailie-hombert.github.io/" target="_blank">portfolio</a>
     </h2>
     <p>
-      La réalité virtuelle
+     L'appropriation de la VR (Réalité Virtuelle) par les musées.
     </p>
   </aside>
 
@@ -160,6 +160,65 @@
 
 
 
+  <article class="filterDiv realitevirtuelle ">
+    <h3>
+      NORTHWAY Colin & STETHEM Robin (Fondateurs)
+    </h3>
+
+    <h4>
+      <a href="https://www.museumor.com/" target="_blank">
+      Museum of Other Realities 
+      </a>
+    </h4> 
+    
+    <h5>
+      Conçu en 2017
+    </h5>
+    
+    <blockquote cit="#">Un nouvel espace pour un nouveau type de culture</blockquote>
+    
+    <p> 
+    Le MOR (=Museum Of the Realities) est un musée totalement virtuel qui fait découvrir divers événements et projet en VR.
+    </p>
+   
+
+    <h6> 
+    Consultaté le 23/09/2021
+    </h6>
+  
+  </article>
+
+
+  <article class="filterDiv realitevirtuelle">
+    <h3>
+     GUERRIERO Emmanuel & BARATI Fabien (Fondateurs).  
+    </h3>
+
+    <h4>
+      <a href="https://www.emissive.fr/fr/" target="_blank">
+        Emissive
+      </a>
+    </h4> 
+    
+    <h5>
+      Fondée en 2005
+    </h5>
+    
+    <blockquote cit="#">La réalité virtuelle est l’opportunité de raconter une histoire d’une meilleure manière ,une histoire que l’on vit, pas que l’on consomme.</blockquote>
+    
+    <p> 
+    Emissive est une agence qui crée des expériences immersives uniques en réalité virtuelle et en réalité augmentée. Fondée en 2005 par Emmanuel Guerriero et Fabien Barait,
+    deux passionnés de technologies immersives. Emissive est l'agence qui a conçu l'expérience VR "En tête-à-tête avec la Joconde", première expérience du musée du Louvre.
+    </p>
+   
+
+    <h6> 
+    Consulté le 23/09/2021
+    </h6>
+  
+  </article>
+
+<!--
   <article class="filterDiv tag1 tag2">
     <h3>
       NOM, Prénom (auteur).  
@@ -187,9 +246,10 @@
     </h6>
   
   </article>
+  -->
 
 
-
+ 
 
 
 </section>
