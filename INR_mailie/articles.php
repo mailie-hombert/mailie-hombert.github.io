@@ -218,6 +218,67 @@
   
   </article>
 
+
+  <article class="filterDiv musee mediation">
+    <h3>
+      NASSIM ABOUDRAR, Bruno & MAIRESSE,François (auteur).  
+    </h3>
+
+    <h4>
+      <a href="#" target="_blank">
+        La médiation culturelle 
+      </a>
+    </h4> 
+    
+    <h5>
+    Édité par PUF (Presses Universitaires de France), publié en 2016
+    </h5>
+    
+    <blockquote cit="#">La médiation se distingue alors de l'arbitrage, en ce que le médiateur, contrairement  à l'arbitre, 
+    n'impose pas ses vues aux parties, mais propose seulement des mesures équitables.</blockquote>
+    
+    <p> 
+      Ce livre traite de la médiation culturelle dans les musées. On apprend le rôle, sa raison d'être ou comment la médiation permet-elle l'accès à l'art ...
+    </p>
+   
+
+    <h6> 
+      En cours de lecture
+    </h6>
+  
+  </article>
+
+
+  <article class="filterDiv realitevirtuelle">
+    <h3>
+      PAUGAM, Sandra & AYATS, Charles (réalisateurs).
+    </h3>
+
+    <h4>
+      <a href="http://www.the-scream-vr.com/fr" target="_blank">
+        Le Cri VR 
+      </a>
+    </h4> 
+    
+    <h5>
+     Produit par les studios : Cinétévé Expérience et ARTE FRANCE, en partenariat avec Backlight
+Studio, et présenté lors du Taipei Film Festival du 05 juillet au 10 juillet 2018.
+    </h5>
+    
+    <blockquote cit="#">Êtes-vous prêt à libérer les secrets du « cri » le plus célèbre de l’histoire de l’art ?</blockquote>
+    
+    <p> 
+    Le Cri VR est une expérience VR Interactive en 3D temps réel jouable aux contrôleurs. Cette expérience, nous plonge à la découvertes des secrets que recèle la toile
+et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en trois chapitres cette expérience nous propose une nouvelle interprétation de l’œuvre.
+    </p>
+   
+
+    <h6> 
+     Consulté le 02 Octobre 2021
+    </h6>
+  
+  </article>
+
 <!--
   <article class="filterDiv tag1 tag2">
     <h3>
