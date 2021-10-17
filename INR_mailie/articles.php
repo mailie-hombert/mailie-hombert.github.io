@@ -35,6 +35,9 @@
  /_/   \_\_|   \__|_|\___|_|\___|
  -->
 
+
+ <!----------------------------------------- LIVRE LES REALITES VIRTUELLES ----------------------------------------------------------->
+
   <article class="filterDiv realitevirtuelle image">
     <h3>
       CADOZ, Claude (auteur).  
@@ -64,6 +67,11 @@
   
   </article>
 
+<!----------------------------------------- FIN LIVRE LES REALITES VIRTUELLES ----------------------------------------------------------->
+
+
+
+<!------------------------------------------ ARTICLE VR---------------------------------------------------------------------------------->
 
   <article class="filterDiv realitevirtuelle scénarisation">
     <h3>
@@ -95,6 +103,12 @@
   
   </article>
 
+  <!------------------------------------------ FIN ARTICLE VR---------------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------ VIDEO VR---------------------------------------------------------------------------------->
 
 
   <article class="filterDiv realitevirtuelle experienceimmersive designfiction metaverse">
@@ -127,6 +141,10 @@
   
   </article>
 
+  <!------------------------------------------ FIN VIDEO VR---------------------------------------------------------------------------------->
+
+
+<!------------------------------------------ ARTICLE EXPERIENCE VR--------------------------------------------------------------------------->
 
   <article class="filterDiv realitevirtuelle experienceimmersive metaverse">
     <h3>
@@ -158,6 +176,13 @@
   
   </article>
 
+  
+<!------------------------------------------ FIN ARTICLE EXPERIENCE VR--------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------ SITE MUSEE VR--------------------------------------------------------------------------------------->
 
 
   <article class="filterDiv realitevirtuelle metaverse musee interactif">
@@ -188,6 +213,12 @@
   
   </article>
 
+  
+<!------------------------------------------ FIN SITE MUSEE VR--------------------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------ STUDIO VR--------------------------------------------------------------------------------------->
 
   <article class="filterDiv realitevirtuelle">
     <h3>
@@ -218,6 +249,11 @@
   
   </article>
 
+  <!------------------------------------------ FIN STUDIO VR--------------------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------ LIVRE MEDIATION CULTURELLE --------------------------------------------------------------------------->
 
   <article class="filterDiv exprienceimmersive mediation musee">
     <h3>
@@ -248,8 +284,14 @@
   
   </article>
 
+  <!------------------------------------------ FIN LIVRE MEDIATION CULTURELLE --------------------------------------------------------------------------->
 
-  <article class="filterDiv realitevirtuelle Art experienceimmersive numerique musee interactif">
+
+
+<!------------------------------------------ EXPERIENCE VR LE CRI --------------------------------------------------------------------------------------->
+
+
+  <article class="filterDiv realitevirtuelle art experienceimmersive numerique musee interactif">
     <h3>
       PAUGAM, Sandra & AYATS, Charles (réalisateurs).
     </h3>
@@ -277,6 +319,77 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     </h6>
   
   </article>
+
+  <!------------------------------------------ FIN EXPERIENCE VR LE CRI --------------------------------------------------------------------------------------->
+
+
+<!------------------------------------------ LIVRE SUR LES MUSEES --------------------------------------------------------------------------------------->
+
+  <article class="filterDiv musee mediation art ">
+    <h3>
+      SCHAER, Roland (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.babelio.com/livres/Schaer-LInvention-des-musees/90554" target="_blank">
+        L'invention des musées
+      </a>
+    </h4> 
+    
+    <h5>
+    Édité par Gallimard, 1993.
+    </h5>
+    
+    <blockquote cit="Si le musée a réussi à surmonter lacrise de son rapport à la modernité [...] c'est qu'il s'est trouvé capable de répondre à une transformation de notre relation à la culture."></blockquote>
+    
+    <p> 
+    Roland Schaer retrace une histoire des musées à travers le monde, celle de l'acquisition de biens inestimables, mais aussi celle de l'idée même de mémoire des lieux et des hommes.
+    </p>
+   
+
+    <h6> 
+      Lu le 30 septembre 2021
+    </h6>
+  
+  </article>
+
+  <!------------------------------------------  FIN LIVRE SUR LES MUSEES --------------------------------------------------------------------------------------->
+
+
+<!------------------------------------------ ESSAI PHILO ------------------------------------------------------------------------------------------------------->
+
+  <article class="filterDiv cinema livre art philosophie ">
+    <h3>
+      BENJAMIN, Walter (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://prepasaintsernin.files.wordpress.com/2020/06/benjamin-oeuvre-art-reproductibilite-technique.pdf" target="_blank">
+        L'oeuvre d'art à l'époque de sa reproductibilité technique
+      </a>
+    </h4> 
+    
+    <h5>
+      Édité par Allia, 2016.
+    </h5>
+    
+    <blockquote cit="L'authencité d'une chose réside dans tout ce qu'elle peut transmettre d'elle depuis son origine">Citation</blockquote>
+    
+    <p> 
+    Walter Benjamin nous décrit dans cette œuvre, l'esthétique moderne et insiste en particulier sur un des tournants de l'art. Il s'agit de l'apparition du cinéma, 
+    après celle de la photographie, qui avait déjà suscité des polémiques de par sa forme. Ainsi de nouveaux moyens artistiques apparaissent, l'art change, évolue,
+    se métamorphose même si le siècle qui assistait à tout cela ne voyait pas le changement que cela allait entraîner 
+    au niveau fonctionnel.
+    </p>
+   
+
+    <h6> 
+    Lu le 12 octobre 2021
+    </h6>
+  
+  </article>
+
+  <!------------------------------------------ FIN ESSAI PHILO ---------------------------------------------------------------------------------------------->
 
 <!--
   <article class="filterDiv tag1 tag2">
