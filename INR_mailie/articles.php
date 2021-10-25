@@ -325,7 +325,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
 <!------------------------------------------ LIVRE SUR LES MUSEES --------------------------------------------------------------------------------------->
 
-  <article class="filterDiv musee mediation art ">
+  <article class="filterDiv musee mediation art">
     <h3>
       SCHAER, Roland (auteur).  
     </h3>
@@ -391,6 +391,74 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
   <!------------------------------------------ FIN ESSAI PHILO ---------------------------------------------------------------------------------------------->
 
+ <!------------------------------------------ LIVRE CONCEVOIR EXPO ---------------------------------------------------------------------------------------------->
+
+  <article class="filterDiv musee art mediation livre">
+    <h3>
+      BENAITEAU, Carole, BERTHON,Olivia, BENAITEAU,Marion & LEMONNIER, Anne (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://livre.fnac.com/a9305841/Carole-Benaiteau-Concevoir-et-realiser-une-exposition" target="_blank">
+        Concevoir et réaliser une exposition
+      </a>
+    </h4> 
+    
+    <h5>
+      Éditeur par Eyrolles le 21 Janvier 2021 
+    </h5>
+    
+    <blockquote cit="La crise sanitaire a accéléré la mise en place de ce qu'il convient d'appeler les expositions virtuelle, un terme qui recouvre des réalités très différentes.">Citation</blockquote>
+    
+    <p> 
+      Ce livre explique les différentes étapes pour concevoir une exposition en nous présentant chacune des personnes qui vont y participer.
+      Chaque chapitre est dédier à un métier qui va être détailler pour bien comprendre quel rôle la personne va avoir dans la mise en place d'une exposition. De plus, à chaque 
+      fin de chapitre, il y a une ou plusieurs interviews de personnes exerçant le métier décrit. Enfin, la particularité de
+      ce livre c'est qu'il traite de comment concevoir une exposition à l'ère numérique et de comment s'adapter en temps de crise sanitaire.
+    </p>
+   
+
+    <h6> 
+      Lu le 21 octobre 2021
+    </h6>
+  
+  </article>
+
+  <!------------------------------------------ FIN LIVRE CONCEVOIR EXPO ---------------------------------------------------------------------------------------------->
+
+  <!------------------------------------------ LIVRE MUSEES VIRTUELS ---------------------------------------------------------------------------------------------->
+
+  <article class="filterDiv livre musee mediation realitevirtuelle">
+    <h3>
+      BEER, Suzanne (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.editions-harmattan.fr/livre-musees_virtuels_et_realites_museales_suzanne_beer-9782343197357-65403.html" target="_blank">
+        Musées virtuels & réalités muséales 
+      </a>
+    </h4> 
+    
+    <h5>
+      Édité par Harmattan en mars 2020
+    </h5>
+    
+    <blockquote cit="Il apparaît que les possibilités offertes par la 3D à 360°, la réalité virtuelle [...] permettent de nombreuses 
+    possibilités d'agencements entre les finalités sémiotique et expérientielle.">Citation</blockquote>
+    
+    <p> 
+    Ce livre porte une analyse sur les musées virtuels a savoir s'ils peuvent être concidéré comme un musée réels, tangibles ou bien ne sont-ils que des leurres temporaires pour mettre en avant les nouvelles technologies.
+ 
+    </p>
+   
+
+    <h6> 
+    En cours de lecture  
+    </h6>
+  
+  </article>
+
+  <!------------------------------------------ FIN LIVRE MUSEES VIRTUELS ---------------------------------------------------------------------------------------------->
 <!--
   <article class="filterDiv tag1 tag2">
     <h3>
