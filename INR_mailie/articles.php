@@ -340,7 +340,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     Édité par Gallimard, 1993.
     </h5>
     
-    <blockquote cit="Si le musée a réussi à surmonter lacrise de son rapport à la modernité [...] c'est qu'il s'est trouvé capable de répondre à une transformation de notre relation à la culture."></blockquote>
+    <blockquote cit="#">Si le musée a réussi à surmonter la crise de son rapport à la modernité [...] c'est qu'il s'est trouvé capable de répondre à une transformation de notre relation à la culture.></blockquote>
     
     <p> 
     Roland Schaer retrace une histoire des musées à travers le monde, celle de l'acquisition de biens inestimables, mais aussi celle de l'idée même de mémoire des lieux et des hommes.
@@ -373,7 +373,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
       Édité par Allia, 2016.
     </h5>
     
-    <blockquote cit="L'authencité d'une chose réside dans tout ce qu'elle peut transmettre d'elle depuis son origine">Citation</blockquote>
+    <blockquote cit="#">L'authencité d'une chose réside dans tout ce qu'elle peut transmettre d'elle depuis son origine.</blockquote>
     
     <p> 
     Walter Benjamin nous décrit dans cette œuvre, l'esthétique moderne et insiste en particulier sur un des tournants de l'art. Il s'agit de l'apparition du cinéma, 
@@ -395,7 +395,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
   <article class="filterDiv musee art mediation livre">
     <h3>
-      BENAITEAU, Carole, BERTHON,Olivia, BENAITEAU,Marion & LEMONNIER, Anne (auteur).  
+      BENAITEAU, Carole; BERTHON, Olivia; BENAITEAU, Marion & LEMONNIER, Anne (auteur).  
     </h3>
 
     <h4>
@@ -408,7 +408,8 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
       Éditeur par Eyrolles le 21 Janvier 2021 
     </h5>
     
-    <blockquote cit="La crise sanitaire a accéléré la mise en place de ce qu'il convient d'appeler les expositions virtuelle, un terme qui recouvre des réalités très différentes.">Citation</blockquote>
+    <blockquote cit="#">La crise sanitaire a accéléré la mise en place de ce qu'il convient d'appeler les expositions virtuelle, 
+    un terme qui recouvre des réalités très différentes.</blockquote>
     
     <p> 
       Ce livre explique les différentes étapes pour concevoir une exposition en nous présentant chacune des personnes qui vont y participer.
@@ -443,8 +444,8 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
       Édité par Harmattan en mars 2020
     </h5>
     
-    <blockquote cit="Il apparaît que les possibilités offertes par la 3D à 360°, la réalité virtuelle [...] permettent de nombreuses 
-    possibilités d'agencements entre les finalités sémiotique et expérientielle.">Citation</blockquote>
+    <blockquote cit="#">Il apparaît que les possibilités offertes par la 3D à 360°, la réalité virtuelle [...] permettent de nombreuses 
+    possibilités d'agencements entre les finalités sémiotique et expérientielle.</blockquote>
     
     <p> 
     Ce livre porte une analyse sur les musées virtuels a savoir s'ils peuvent être concidéré comme un musée réels, tangibles ou bien ne sont-ils que des leurres temporaires pour mettre en avant les nouvelles technologies.
@@ -459,6 +460,182 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   </article>
 
   <!------------------------------------------ FIN LIVRE MUSEES VIRTUELS ---------------------------------------------------------------------------------------------->
+
+   <!------------------------------------------ Studio VR ---------------------------------------------------------------------------------------------->
+
+   <article class="filterDiv realitevirtuelle interactif numerique  experienceimmersive">
+    <h3>
+      JARRY, Chloé & BERTRAND, François (fondateurs).  
+    </h3>
+
+    <h4>
+      <a href="http://lucidrealities.studio/index.php/en/lucid-realities-english/" target="_blank">
+        Lucid Realities
+      </a>
+    </h4> 
+    
+    <h5>
+      Crée en 2018
+    </h5>
+    
+    <blockquote cit="#">Certains de nos projets sont conçus pour préfigurer l'avenir de l'industrie de la réalité virtuelle et 
+    des moyens innovants de production et de distribution de la réalité virtuelle.</blockquote>
+    
+    <p> 
+      Lucid Realities est un studio de production et de diffusion d'expérience immersive. Basé sur Paris, il fut fondé en 2018.
+      J'ai découvert ce studio grâce à l'un de leur porjet "&#8239;L'obsession des Nymphéas&#8239;", produit en 2018 et réalisé pour commémorer les 100 ans de l’installation 
+      de la série originelle des Nymphéas au Musée de l’Orangerie.
+    </p>
+   
+
+    <h6> 
+    Consulté le 25 octobre 2021
+    </h6>
+  
+  </article>
+
+    <!------------------------------------------ FIN Studio VR ------------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------ L'histoire de la réalité virtuelle ---------------------------------------------------------------------------->
+
+    <article class="filterDiv realitevirtuelle">
+    <h3>
+      NOM inconnu, Lucas (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.v-cult.com/blog/histoire-de-la-realite-virtuelle/" target="_blank">
+        L'histoire de la réalité virtuelle
+      </a>
+    </h4> 
+    
+    <h5>
+      Publié le 1er Décembre 2017 sur le site "&#8239;V-CULT&#8239;"
+    </h5>
+    
+    <blockquote cit="#">Vous allez être surpris d’apprendre que la réalité virtuelle ne date pas d’hier</blockquote>
+    
+    <p> 
+      Cet article retrace l'histoire de la réalité virtuelle du XIXe sièle au XXIe siècle. On y découvre toutes les inventions majeurs qui ont marqués l'histoire et les gens au file du temps.
+      Nous expliquant à chaque fois les raisons qui ont pousser les chercheurs, inventeurs... à s'intéresser à ce domaine. On y apprend aussi les raisons pour lesquelles certaines inventions n'ont pas fonctionnées.
+    </p>
+   
+
+    <h6> 
+      Consulté le 10 novembre 2021
+    </h6>
+  
+  </article>
+  -->
+
+  <!------------------------------------------ FIN L'histoire de la réalité virtuelle --------------------------------------------------------------------------->
+
+  <!------------------------------------------ Galerie Schwab ------------------------------------------------------------------------------->
+
+  <article class="filterDiv metavers numerique interactif">
+    <h3>
+      SCHWAB, Edouard (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.galerieschwabbeaubourg.com/fr/" target="_blank">
+        Galerie Schwab Beaubourg 
+      </a>
+    </h4> 
+    
+    <h5>
+      Fondé en 2011
+    </h5>
+    
+    <blockquote cit="#">J’ai pris la décision cet été de changer radicalement de ligne et de m’orienter plutôt vers de l’art numérique, 
+    peinture digitale et notamment le monde des NFT que j’ai trouvé passionnant… surprenant et passionnant.</blockquote>
+    
+    <p> 
+    La galerie schwab si situe dans le 4e arrondissement de Paris, à deux pas du Centre Pompidou. Elle y présente différents domaines de la peinture actuelle, de 
+    l’abstraction à l’expressionisme. Cependant, la nouveauté de cette galerie depuis octobre 2021 est son choix de se diriger vers l’art numérique.
+    Des expositions hybrides voient le jour entre ses murs. Désormais, la galerie présente toujours des oeuvres réelles à la galerie mais aussi les versions numériques sous forme de NFT (&#8239;Non Fongible Token&#8239;) dans un métaverse sur la plateforme Cryptovoxels. 
+
+
+    </p>
+   
+
+    <h6> 
+      Visité le 12 novembre 2021
+    </h6>
+  
+  </article>
+
+ <!------------------------------------------ Galerie Schwab ------------------------------------------------------------------------------->
+
+ <!------------------------------------------ Podcast RV ------------------------------------------------------------------------------->
+
+  <article class="filterDiv ">
+    <h3>
+      SCHWAB, Edouard (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.franceculture.fr/emissions/le-choix-de-la-redaction/realite-virtuelle-hologrammes-3d-le-musee-lere-numerique" target="_blank">
+        Réalité virtuelle, hologramme, 3D&#8239;: Le musée à l'ère numérique
+      </a>
+    </h4> 
+    
+    <h5>
+      Produit le 29 décembre 2016
+    </h5>
+    
+    <blockquote cit="#">Depuis dix ans, le numérique bouleverse le monde de la culture et particulièrement le monde muséal. Protection, préservation, 
+    restauration des œuvres, il est aussi massivement utilisé comme outil de médiation culturelle.</blockquote>
+    
+    <p> 
+      Résumé
+    </p>
+   
+
+    <h6> 
+      Consuté le 01novembre 2021
+    </h6>
+  
+  </article>
+
+  <!------------------------------------------ Podcast RV  ------------------------------------------------------------------------------->
+
+  <article class="filterDiv tag1 tag2">
+    <h3>
+      Centre Pompidou (producteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.centrepompidou.fr/fr/experience-miro-vr" target="_blank">
+        Expérience Miro VR
+      </a>
+    </h4> 
+    
+    <h5>
+     Réalisé par WAOlab et publié en 2020
+    </h5>
+    
+    <blockquote cit="#">Son inventivité intacte, la fraicheur de son inspiration et la puissance plastique de son oeuvre le font reconnaître
+    comme l'un des plus grands artistes du 20e siècle.</blockquote>
+    
+    <p> 
+    Pour fêter le 59eme anniversaire de la première exposition "&#8239;Triptyque Bleu I, Bleu II et Bleu III&#8239;" fut exposé à la galerie Maeght de Paris, le Centre Pompidou consacre sa première 
+    exposition en réalité virtuelle à ces trois Bleus.
+    Cette expérience VR reconstitut une exposition en 3D entouré du décor du Centre Pompidou. L'expérience est gratuite et disponible sur tablette, ordinateur et smartphone.
+    </p>
+   
+
+    <h6> 
+      Consulté le 30 octobre 2021 
+    </h6>
+  
+  </article>
+
+   <!------------------------------------------ FIN Podcast RV  ------------------------------------------------------------------------------->
+
+
+  <!------------------------------------------ Expo VR Centre Pompidou  ------------------------------------------------------------------------------->
+
 <!--
   <article class="filterDiv tag1 tag2">
     <h3>
