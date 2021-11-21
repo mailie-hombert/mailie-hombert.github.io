@@ -569,7 +569,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
  <!------------------------------------------ Podcast RV ------------------------------------------------------------------------------->
 
-  <article class="filterDiv ">
+  <article class="filterDiv realitevirtuelle musee numerique mediation">
     <h3>
       SCHWAB, Edouard (auteur).  
     </h3>
@@ -598,9 +598,11 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ Podcast RV  ------------------------------------------------------------------------------->
+  <!------------------------------------------ FIN Podcast RV  ------------------------------------------------------------------------------->
 
-  <article class="filterDiv tag1 tag2">
+  <!------------------------------------------ Expo VR Centre Pompidou ------------------------------------------------------------------------------->
+
+  <article class="filterDiv realitevirtuelle musee">
     <h3>
       Centre Pompidou (producteur).  
     </h3>
@@ -631,10 +633,115 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-   <!------------------------------------------ FIN Podcast RV  ------------------------------------------------------------------------------->
+   
 
 
-  <!------------------------------------------ Expo VR Centre Pompidou  ------------------------------------------------------------------------------->
+  <!------------------------------------------ FIN Expo VR Centre Pompidou  ------------------------------------------------------------------------------->
+
+  <!------------------------------------------ Van Gogh VR  ------------------------------------------------------------------------------->
+
+
+  <article class="filterDiv realitevirtuelle interactif experienceimmersive">
+    <h3>
+      Borrowed light studio (producteur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.borrowedlightvr.com/the-night-cafe/" target="_blank">
+        The night café
+      </a>
+    </h4> 
+    
+    <h5>
+      Réalisé en 2016
+    </h5>
+    
+    <blockquote cit="#">Prenez un moment pour profiter de ses tournesols emblématiques en 3 dimensions</blockquote>
+    
+    <p> 
+    The night café est une expérience VR, qui nous plonge dans le tableau "&#8239;Le café de nuit&#8239;", peind en 1888 part Vincent Van Gogh. Ce qui est intéressant dans cette expérience, c'est qu'il y a
+    plusieurs oeuvres de l'artiste dissimulées dans le décor comme&#8239;: Les tournesols, la Chaise de Vincent... C'est une belle surprise à n'importe quel personne connaissant un peu le travail de Van Gogh.
+    Cette expérience se veut reposante, un pianiste dans l'expérience nous joue un morceau. L'univers de Van Gogh est respecté par le choix du studio Borrowed light
+    de garder le style qu'utilise le peintre pour concevoir cette expérience VR.
+    </p>
+   
+
+    <h6> 
+      Consulté le 16 novembre 2021
+    </h6>
+  
+  </article>
+  -->
+
+   <!------------------------------------------ FIN Van Gogh VR  ---------------------------------------------------------->
+
+   <!------------------------------------------ Bruegel VR  ---------------------------------------------------------->
+
+   <article class="filterDiv realitevirtuelle experienceimmersive ">
+    <h3>
+    Gordon & JARACH, Andrés Jarach (réalisateur).  
+    </h3>
+
+    <h4>
+      <a href="https://www.arte.tv/sites/webproductions/condamnes-a-jouer/" target="_blank">
+        Condamnés à jouer 
+      </a>
+    </h4> 
+    
+    <h5>
+      Co-produit part Arte France & Camera Lucidad
+    </h5>
+    
+    <blockquote cit="#">On n’est plus au musée, ni devant une toile en huile sur bois de près de cinq siècles, mais au beau milieu du joyeux désordre d’un terrain de jeu d’enfants.</blockquote>
+    
+    <p> 
+      Ce film à 360° nous aconte l’histoire du tableau de Bruegel l’Ancien, réalisé en 1560. Cette peinture représente une centaine d'enfants en train de jouer, envahissent ainsi toute une ville.
+       Le spectateur se retrouve projeté au cœur de l’œuvre et passe d’un groupe d’enfants à un autre. Cependant, les enfants semble troublés par quelque chose qui les obligeraient à jouer indéfiniment.
+       Le décor de la ville est en 3D mais les personnages sont en 2D et semble avoir du mal à se déplacer à cause de cela. Les voix-off des personnages sont très immersives et donne
+       vie à chacun des personnages.</p>   
+
+    <h6> 
+      Consulté le 16 novembre 2021
+    </h6>
+  
+  </article>
+
+ <!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
+
+<!--
+ <article class="filterDiv realitevirtuelle experienceimmersive numerique">
+    <h3>
+      NOM, Prénom (auteur).  
+    </h3>
+
+    <h4>
+      <a href="#" target="_blank">
+        Titre, 
+      </a>
+    </h4> 
+    
+    <h5>
+      Éditeur, date de publication.
+    </h5>
+    
+    <blockquote cit="#">Citation</blockquote>
+    
+    <p> 
+      Résumé
+    </p>
+   
+
+    <h6> 
+      Date de lecture / consultation  
+    </h6>
+  
+  </article>
+-->
+<!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
+
+
+
+<!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
 
 <!--
   <article class="filterDiv tag1 tag2">
