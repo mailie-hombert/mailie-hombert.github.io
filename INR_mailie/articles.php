@@ -36,7 +36,7 @@
  -->
 
 
- <!----------------------------------------- LIVRE LES REALITES VIRTUELLES ----------------------------------------------------------->
+ <!-- =================LIVRE LES REALITES VIRTUELLES================ -->
 
   <article class="filterDiv realitevirtuelle image">
     <h3>
@@ -67,11 +67,12 @@
   
   </article>
 
-<!----------------------------------------- FIN LIVRE LES REALITES VIRTUELLES ----------------------------------------------------------->
+
+<!-- ================= FIN LIVRE LES REALITES VIRTUELLES================ -->
 
 
 
-<!------------------------------------------ ARTICLE VR---------------------------------------------------------------------------------->
+<!--============================== ARTICLE VR ===============-->
 
   <article class="filterDiv realitevirtuelle scénarisation">
     <h3>
@@ -103,12 +104,12 @@
   
   </article>
 
-  <!------------------------------------------ FIN ARTICLE VR---------------------------------------------------------------------------------->
+  <!--============================== FIN ARTICLE VR ===============-->
 
 
 
 
-<!------------------------------------------ VIDEO VR---------------------------------------------------------------------------------->
+<!--=================================VIDEO VR====================-->
 
 
   <article class="filterDiv realitevirtuelle experienceimmersive designfiction metaverse">
@@ -141,10 +142,10 @@
   
   </article>
 
-  <!------------------------------------------ FIN VIDEO VR---------------------------------------------------------------------------------->
+ <!--=================================FIN VIDEO VR====================-->
 
 
-<!------------------------------------------ ARTICLE EXPERIENCE VR--------------------------------------------------------------------------->
+<!--====================== ARTICLE EXPERIENCE VR=======================-->
 
   <article class="filterDiv realitevirtuelle experienceimmersive metaverse">
     <h3>
@@ -177,12 +178,12 @@
   </article>
 
   
-<!------------------------------------------ FIN ARTICLE EXPERIENCE VR--------------------------------------------------------------------------->
+<!--====================== FIN ARTICLE EXPERIENCE VR=======================-->
 
 
 
 
-<!------------------------------------------ SITE MUSEE VR--------------------------------------------------------------------------------------->
+<!--==================================== SITE MUSEE VR===================-->
 
 
   <article class="filterDiv realitevirtuelle metaverse musee interactif">
@@ -214,11 +215,15 @@
   </article>
 
   
-<!------------------------------------------ FIN SITE MUSEE VR--------------------------------------------------------------------------------------->
+
+
+<!--==================================== SITE MUSEE VR===================-->
 
 
 
-<!------------------------------------------ STUDIO VR--------------------------------------------------------------------------------------->
+
+
+<!--===================================== STUDIO VR=============================-->
 
   <article class="filterDiv realitevirtuelle">
     <h3>
@@ -249,11 +254,11 @@
   
   </article>
 
-  <!------------------------------------------ FIN STUDIO VR--------------------------------------------------------------------------------------->
+  <!--===================================== FIN STUDIO VR=============================-->
 
 
 
-<!------------------------------------------ LIVRE MEDIATION CULTURELLE --------------------------------------------------------------------------->
+<!--================================== LIVRE MEDIATION CULTURELLE ============-->
 
   <article class="filterDiv exprienceimmersive mediation musee">
     <h3>
@@ -284,11 +289,11 @@
   
   </article>
 
-  <!------------------------------------------ FIN LIVRE MEDIATION CULTURELLE --------------------------------------------------------------------------->
+  <!--================================== FIN LIVRE MEDIATION CULTURELLE ==========-->
 
 
 
-<!------------------------------------------ EXPERIENCE VR LE CRI --------------------------------------------------------------------------------------->
+<!--================================== EXPERIENCE VR LE CRI ==========================-->
 
 
   <article class="filterDiv realitevirtuelle art experienceimmersive numerique musee interactif">
@@ -320,10 +325,10 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ FIN EXPERIENCE VR LE CRI --------------------------------------------------------------------------------------->
+  <!--=========================================FIN EXPERIENCE VR LE CRI ======================================-->
 
 
-<!------------------------------------------ LIVRE SUR LES MUSEES --------------------------------------------------------------------------------------->
+<!--=================================================LIVRE SUR LES MUSEES ====================================-->
 
   <article class="filterDiv musee mediation art">
     <h3>
@@ -353,10 +358,10 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------  FIN LIVRE SUR LES MUSEES --------------------------------------------------------------------------------------->
+  <!--================================ FIN LIVRE SUR LES MUSEES======================================-->
 
 
-<!------------------------------------------ ESSAI PHILO ------------------------------------------------------------------------------------------------------->
+<!--==================================== ESSAI PHILO =================================-->
 
   <article class="filterDiv cinema livre art philosophie ">
     <h3>
@@ -389,9 +394,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ FIN ESSAI PHILO ---------------------------------------------------------------------------------------------->
+  <!--=========================================== FIN ESSAI PHILO ============================-->
 
- <!------------------------------------------ LIVRE CONCEVOIR EXPO ---------------------------------------------------------------------------------------------->
+ <!--================================ LIVRE CONCEVOIR EXPO ==========================-->
 
   <article class="filterDiv musee art mediation livre">
     <h3>
@@ -425,9 +430,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ FIN LIVRE CONCEVOIR EXPO ---------------------------------------------------------------------------------------------->
+  <!--======================================= FIN LIVRE CONCEVOIR EXPO ======================-->
 
-  <!------------------------------------------ LIVRE MUSEES VIRTUELS ---------------------------------------------------------------------------------------------->
+  <!--============================================== LIVRE MUSEES VIRTUELS ===============================-->
 
   <article class="filterDiv livre musee mediation realitevirtuelle">
     <h3>
@@ -449,7 +454,6 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     
     <p> 
     Ce livre porte une analyse sur les musées virtuels a savoir s'ils peuvent être concidéré comme un musée réels, tangibles ou bien ne sont-ils que des leurres temporaires pour mettre en avant les nouvelles technologies.
- 
     </p>
    
 
@@ -459,9 +463,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ FIN LIVRE MUSEES VIRTUELS ---------------------------------------------------------------------------------------------->
+  <!--=========================== FIN LIVRE MUSEES VIRTUELS ===============-->
 
-   <!------------------------------------------ Studio VR ---------------------------------------------------------------------------------------------->
+   <!--====================================== Studio VR ============================-->
 
    <article class="filterDiv realitevirtuelle interactif numerique  experienceimmersive">
     <h3>
@@ -494,9 +498,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-    <!------------------------------------------ FIN Studio VR ------------------------------------------------------------------------------------------------->
+    <!--============================================ FIN Studio VR ========================================-->
 
-    <!------------------------------------------ L'histoire de la réalité virtuelle ---------------------------------------------------------------------------->
+    <!--=====================================L'histoire de la réalité virtuelle ================================-->
 
     <article class="filterDiv realitevirtuelle">
     <h3>
@@ -528,9 +532,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   </article>
   -->
 
-  <!------------------------------------------ FIN L'histoire de la réalité virtuelle --------------------------------------------------------------------------->
+  <!--======================================= FIN L'histoire de la réalité virtuelle ================================-->
 
-  <!------------------------------------------ Galerie Schwab ------------------------------------------------------------------------------->
+  <!--============================================ Galerie Schwab==================================-->
 
   <article class="filterDiv metavers numerique interactif">
     <h3>
@@ -554,8 +558,6 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     La galerie schwab si situe dans le 4e arrondissement de Paris, à deux pas du Centre Pompidou. Elle y présente différents domaines de la peinture actuelle, de 
     l’abstraction à l’expressionisme. Cependant, la nouveauté de cette galerie depuis octobre 2021 est son choix de se diriger vers l’art numérique.
     Des expositions hybrides voient le jour entre ses murs. Désormais, la galerie présente toujours des oeuvres réelles à la galerie mais aussi les versions numériques sous forme de NFT (&#8239;Non Fongible Token&#8239;) dans un métaverse sur la plateforme Cryptovoxels. 
-
-
     </p>
    
 
@@ -565,13 +567,13 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
- <!------------------------------------------ Galerie Schwab ------------------------------------------------------------------------------->
+ <!--============================== Galerie Schwab ===========================-->
 
- <!------------------------------------------ Podcast RV ------------------------------------------------------------------------------->
+ <!--================================== Podcast RV ===================================-->
 
   <article class="filterDiv realitevirtuelle musee numerique mediation">
     <h3>
-      SCHWAB, Edouard (auteur).  
+    DE KERVASDOUÉ, Cécile (auteur).  
     </h3>
 
     <h4>
@@ -598,9 +600,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-  <!------------------------------------------ FIN Podcast RV  ------------------------------------------------------------------------------->
+  <!--===================================== FIN Podcast RV  =====================-->
 
-  <!------------------------------------------ Expo VR Centre Pompidou ------------------------------------------------------------------------------->
+  <!--==================================Expo VR Centre Pompidou ================================-->
 
   <article class="filterDiv realitevirtuelle musee">
     <h3>
@@ -636,9 +638,9 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
    
 
 
-  <!------------------------------------------ FIN Expo VR Centre Pompidou  ------------------------------------------------------------------------------->
+  <!--====================================== FIN Expo VR Centre Pompidou==============================-->
 
-  <!------------------------------------------ Van Gogh VR  ------------------------------------------------------------------------------->
+  <!--======================================== Van Gogh VR  ==========================================-->
 
 
   <article class="filterDiv realitevirtuelle interactif experienceimmersive">
@@ -671,11 +673,11 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     </h6>
   
   </article>
-  -->
+ 
 
-   <!------------------------------------------ FIN Van Gogh VR  ---------------------------------------------------------->
+   <!--========================================== FIN Van Gogh VR===================================================-->
 
-   <!------------------------------------------ Bruegel VR  ---------------------------------------------------------->
+   <!--===========================================Bruegel VR ======================================================--->
 
    <article class="filterDiv realitevirtuelle experienceimmersive ">
     <h3>
@@ -706,42 +708,77 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
- <!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
+ <!--======================================== article VR ==================================-->
 
-<!--
+
  <article class="filterDiv realitevirtuelle experienceimmersive numerique">
     <h3>
-      NOM, Prénom (auteur).  
+      WEBER, Thierry (journaliste).  
     </h3>
 
     <h4>
-      <a href="#" target="_blank">
-        Titre, 
+      <a href="https://www.20minutes.fr/magazine/realite-virtuelle-mag/2419783-20170718-pourquoi-la-realite-virtuelle-nous-aide-a-ressentir-plus-d-emotions" target="_blank">
+        Pourquoi la réalité virtuelle nous aide à ressentir plus d'émotions  
       </a>
     </h4> 
     
     <h5>
-      Éditeur, date de publication.
+      Édité par le magazine 20 minutes le 18/07/2017
     </h5>
     
-    <blockquote cit="#">Citation</blockquote>
+    <blockquote cit="#">Le travail du réalisateur est de pousser le spectateur à regarder où il faut et de suivre le scénario</blockquote>
     
     <p> 
-      Résumé
+      Article 
     </p>
    
 
     <h6> 
-      Date de lecture / consultation  
+      Consulté le 08 décembre 2021
     </h6>
   
   </article>
--->
+
+<!------------------------------------------ FIN article VR  ---------------------------------------------------------->
+
+
+
+<!------------------------------------------ Le musée UMA  ---------------------------------------------------------->
+
+<article class="filterDiv musee realitevirtuelle ">
+    <h3>
+      VERGES, Jean & RECORDIER, Sophie (auteur).  
+    </h3>
+
+    <h4>
+      <a href="https://expo.the-uma.org/renaissance-xxe/" target="_blank">
+      Le musée UMA (Universal Museum of Art) 
+      </a>
+    </h4> 
+    
+    <h5>
+      Conçu par Jean Vergès & Sophie Recordier en 2017.
+    </h5>
+    
+    <blockquote cit="#">L’enjeu n’est pas l’exhaustivité mais la représentativité 
+    des époques et des écoles phares depuis les grands maîtres de la Renaissance, jusqu’aux premiers impressionnistes</blockquote>
+    
+    <p> 
+      UMA est en muséee virtuelle qui regroupes différentes institutions culturelles pour nous proposer des expositions virtuelles accesible en ligne.
+      Il n'est pas nécessaire de porter un casque VR pour faire la visite. 
+    </p>
+   
+
+    <h6> 
+      Consulté le 09/12/2021
+    </h6>
+  
+  </article>
+
 <!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
 
 
 
-<!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
 
 <!--
   <article class="filterDiv tag1 tag2">
