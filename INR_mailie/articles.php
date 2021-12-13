@@ -677,7 +677,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
    <!--========================================== FIN Van Gogh VR===================================================-->
 
-   <!--===========================================Bruegel VR ======================================================--->
+   <!--===========================================Bruegel VR ======================================================-->
 
    <article class="filterDiv realitevirtuelle experienceimmersive ">
     <h3>
@@ -744,7 +744,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
 
 
 
-<!--================================== Le musée UMA  =================================-->
+<!--================================== Le musée UMA  ==============================-->
 
 <article class="filterDiv musee realitevirtuelle">
     <h3>
