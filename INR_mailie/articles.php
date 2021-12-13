@@ -729,7 +729,8 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
     <blockquote cit="#">Le travail du réalisateur est de pousser le spectateur à regarder où il faut et de suivre le scénario</blockquote>
     
     <p> 
-      Article 
+    Cette article traite du rôle de la narration dans une expérience VR mais aussi du rôle que peut avoir le spectateur dans le déroulement de la narration. 
+    Qu'est-ce que cela apporte que le spectateur devienne lui aussi un acteur de l'histoire.  
     </p>
    
 
@@ -739,13 +740,13 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-<!------------------------------------------ FIN article VR  ---------------------------------------------------------->
+<!--======================================= FIN article VR========================-->
 
 
 
-<!------------------------------------------ Le musée UMA  ---------------------------------------------------------->
+<!--================================== Le musée UMA  =================================-->
 
-<article class="filterDiv musee realitevirtuelle ">
+<article class="filterDiv musee realitevirtuelle">
     <h3>
       VERGES, Jean & RECORDIER, Sophie (auteur).  
     </h3>
@@ -775,7 +776,7 @@ et nous fait traverser les obsessions et l’œuvre du peintre. Découpée en tr
   
   </article>
 
-<!------------------------------------------ FIN Bruegel VR  ---------------------------------------------------------->
+<!--================================ FIN Musée VR =================================-->
 
 
 
