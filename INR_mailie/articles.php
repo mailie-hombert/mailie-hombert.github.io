@@ -99,7 +99,7 @@
 
 
     <h6>
-      Consulté le 15/09/2021
+      Consulté le 15 septembre 2021
     </h6>
 
   </article>
@@ -137,7 +137,7 @@
 
 
     <h6>
-      Consultation le 20/09/21
+    Consultation le 20 septembre 2021
     </h6>
 
   </article>
@@ -172,7 +172,7 @@
 
 
     <h6>
-      lu le 21/09/2021
+      lu le 21 septembre 2021
     </h6>
 
   </article>
@@ -209,7 +209,7 @@
 
 
     <h6>
-      Consultaté le 23/09/2021
+      Consultaté le 23 septembre 2021
     </h6>
 
   </article>
@@ -249,7 +249,7 @@
 
 
     <h6>
-      Consulté le 23/09/2021
+      Consulté le 23 septembre 2021
     </h6>
 
   </article>
@@ -284,7 +284,7 @@
 
 
     <h6>
-      En cours de lecture
+      Lu le 30 octobre 2021
     </h6>
 
   </article>
@@ -458,7 +458,7 @@
 
 
     <h6>
-      En cours de lecture
+      Lu le 25 novembre 2021
     </h6>
 
   </article>
@@ -555,7 +555,7 @@
       peinture digitale et notamment le monde des NFT que j’ai trouvé passionnant… surprenant et passionnant.</blockquote>
 
     <p>
-      La galerie schwab si situe dans le 4e arrondissement de Paris, à deux pas du Centre Pompidou. Elle y présente différents domaines de la peinture actuelle, de
+      La galerie schwab si situe dans le 4<sup>e</sup> arrondissement de Paris, à deux pas du Centre Pompidou. Elle y présente différents domaines de la peinture actuelle, de
       l’abstraction à l’expressionisme. Cependant, la nouveauté de cette galerie depuis octobre 2021 est son choix de se diriger vers l’art numérique.
       Des expositions hybrides voient le jour entre ses murs. Désormais, la galerie présente toujours des oeuvres réelles à la galerie mais aussi les versions numériques sous forme de NFT (&#8239;Non Fongible Token&#8239;) dans un métaverse sur la plateforme Cryptovoxels.
     </p>
@@ -740,7 +740,7 @@
 
 
     <h6>
-      Consulté le 09/12/2021
+      Consulté le 09 décembre 2021
     </h6>
 
   </article>
