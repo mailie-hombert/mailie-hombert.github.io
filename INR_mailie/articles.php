@@ -22,7 +22,7 @@
       <a href="https://mailie-hombert.github.io/" target="_blank">portfolio</a>
     </h2>
     <p>
-      Mon mémoire traite de la pertinence de l'utilisation de la réalité virtuelle (=VR) pour la conception de la médiation d'une oeuvre dans les musées.
+      Mon mémoire traite de l'utilisation de la réalité virtuelle (=VR) pour la conception de la médiation d'une oeuvre dans les musées.
     </p>
   </aside>
 
