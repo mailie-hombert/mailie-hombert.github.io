@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost");
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: "Jost", sans-serif;
+	background-color: rgb(0, 10, 20);
+	color: white;
+}
+
+aside {
+	margin: 1em;
+}
+
+article {
+	border: 2px solid white;
+	padding: 1em;
+	margin: 1em;
+}
+
+blockquote {
+	color: rgb(0, 218, 224);
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a:visited {
+	color: white;
 }
