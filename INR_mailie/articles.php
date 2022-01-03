@@ -90,7 +90,7 @@
     </h5>
 
     <blockquote cit="#">Pour garder le contrôle sur l’histoire en train d’être narrée, les scénaristes attirent donc l’attention de l’utilisateur en utilisant tour à tour la proximité des objets du décor, l’action d’un personnage, la couleur, la lumière ou encore le son,
-      comme le souligne Kath Dooley (2017, p. 169) dans son article "&#8239;Storytelling with Virtual Reality in 360-Degrees: a New Screen Grammar&#8239;"</blockquote>
+      comme le souligne Kath Dooley (2017, p. 169) dans son article "&#8239;Storytelling with Virtual Reality in 360-Degrees&#8239;: a New Screen Grammar&#8239;"</blockquote>
 
     <p>
       Cette article fait un bilan des nouvelles compétences, approches et techniques de scénarisation
