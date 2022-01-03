@@ -137,7 +137,7 @@
 
 
     <h6>
-    Consultation le 20 septembre 2021
+    Consulté le 20 septembre 2021
     </h6>
 
   </article>
@@ -209,7 +209,7 @@
 
 
     <h6>
-      Consultaté le 23 septembre 2021
+      Consulté le 23 septembre 2021
     </h6>
 
   </article>
